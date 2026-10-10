@@ -1,0 +1,250 @@
+{
+  "judgment": [
+    {
+      "experiment": "qwen32_sampled_off",
+      "update": "Narrow",
+      "n": 40,
+      "correct": 0
+    },
+    {
+      "experiment": "qwen32_sampled_off",
+      "update": "Whole",
+      "n": 40,
+      "correct": 40
+    },
+    {
+      "experiment": "qwen32_sampled_off",
+      "update": "Unrelated",
+      "n": 40,
+      "correct": 40
+    },
+    {
+      "experiment": "qwen32_sampled_on",
+      "update": "Narrow",
+      "n": 40,
+      "correct": 33
+    },
+    {
+      "experiment": "qwen32_sampled_on",
+      "update": "Whole",
+      "n": 40,
+      "correct": 40
+    },
+    {
+      "experiment": "qwen32_sampled_on",
+      "update": "Unrelated",
+      "n": 40,
+      "correct": 40
+    },
+    {
+      "experiment": "qwen8_sampled_off",
+      "update": "Narrow",
+      "n": 40,
+      "correct": 0
+    },
+    {
+      "experiment": "qwen8_sampled_on",
+      "update": "Narrow",
+      "n": 40,
+      "correct": 8
+    },
+    {
+      "experiment": "llama8_greedy",
+      "update": "Narrow",
+      "n": 40,
+      "correct": 0
+    },
+    {
+      "experiment": "llama8_greedy",
+      "update": "Unrelated",
+      "n": 40,
+      "correct": 5
+    },
+    {
+      "experiment": "qwen32_greedy",
+      "update": "Narrow",
+      "n": 40,
+      "correct": 0
+    },
+    {
+      "experiment": "qwen32_greedy",
+      "update": "Whole",
+      "n": 40,
+      "correct": 40
+    },
+    {
+      "experiment": "qwen32_greedy",
+      "update": "Unrelated",
+      "n": 40,
+      "correct": 40
+    }
+  ],
+  "arms": [
+    {
+      "experiment": "intervention_original",
+      "condition": "Gold",
+      "n": 40,
+      "valid": 32,
+      "loss": 7
+    },
+    {
+      "experiment": "intervention_original",
+      "condition": "Flipped",
+      "n": 40,
+      "valid": 35,
+      "loss": 34
+    },
+    {
+      "experiment": "intervention_paraphrase",
+      "condition": "Gold",
+      "n": 40,
+      "valid": 38,
+      "loss": 5
+    },
+    {
+      "experiment": "intervention_paraphrase",
+      "condition": "Flipped",
+      "n": 40,
+      "valid": 39,
+      "loss": 37
+    },
+    {
+      "experiment": "intervention_paraphrase_instructions",
+      "condition": "Gold",
+      "n": 40,
+      "valid": 39,
+      "loss": 1
+    },
+    {
+      "experiment": "intervention_paraphrase_instructions",
+      "condition": "Flipped",
+      "n": 40,
+      "valid": 36,
+      "loss": 35
+    },
+    {
+      "experiment": "qwen32_greedy",
+      "condition": "NoCue",
+      "n": 40,
+      "loss": 16,
+      "valid": 40
+    },
+    {
+      "experiment": "qwen32_greedy",
+      "condition": "Self",
+      "n": 40,
+      "loss": 39,
+      "valid": 40
+    },
+    {
+      "experiment": "qwen32_greedy",
+      "condition": "Gold",
+      "n": 40,
+      "loss": 2,
+      "valid": 34
+    },
+    {
+      "experiment": "llama8_greedy",
+      "condition": "NoCue",
+      "n": 40,
+      "loss": 13,
+      "valid": 35
+    },
+    {
+      "experiment": "llama8_greedy",
+      "condition": "Self",
+      "n": 40,
+      "loss": 24,
+      "valid": 40
+    },
+    {
+      "experiment": "llama8_greedy",
+      "condition": "Gold",
+      "n": 40,
+      "loss": 14,
+      "valid": 39
+    }
+  ],
+  "paired": [
+    {
+      "experiment": "intervention_original",
+      "n": 27,
+      "a_loss": 26,
+      "b_loss": 7,
+      "difference_pp": 70.37037037037037,
+      "ci95_pp": [
+        51.851851851851855,
+        85.18518518518519
+      ],
+      "all40_missing_bounds_pp": [
+        47.5,
+        80.0
+      ]
+    },
+    {
+      "experiment": "intervention_paraphrase",
+      "n": 37,
+      "a_loss": 36,
+      "b_loss": 5,
+      "difference_pp": 83.78378378378379,
+      "ci95_pp": [
+        67.56756756756756,
+        97.29729729729729
+      ],
+      "all40_missing_bounds_pp": [
+        75.0,
+        82.5
+      ]
+    },
+    {
+      "experiment": "intervention_paraphrase_instructions",
+      "n": 36,
+      "a_loss": 35,
+      "b_loss": 1,
+      "difference_pp": 94.44444444444444,
+      "ci95_pp": [
+        86.11111111111111,
+        100
+      ],
+      "all40_missing_bounds_pp": [
+        82.5,
+        95.0
+      ]
+    },
+    {
+      "experiment": "qwen32_greedy",
+      "n": 34,
+      "a_loss": 33,
+      "b_loss": 2,
+      "difference_pp": 91.17647058823529,
+      "ci95_pp": [
+        79.41176470588235,
+        100
+      ]
+    },
+    {
+      "experiment": "llama8_greedy",
+      "n": 39,
+      "a_loss": 23,
+      "b_loss": 14,
+      "difference_pp": 23.076923076923077,
+      "ci95_pp": [
+        7.6923076923076925,
+        38.46153846153846
+      ]
+    }
+  ],
+  "appendix": {
+    "n": 40,
+    "full_correct": 10,
+    "invalid": 6,
+    "presupposition_loss": 11,
+    "retained_other_failure": 13,
+    "requirement_failures": {
+      "unrelated_retained": 12,
+      "unsupported_role_facts": 14,
+      "unsupported_revisions": 11,
+      "unsupported_conflicts": 11
+    }
+  }
+}

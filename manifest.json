@@ -1,0 +1,21 @@
+{
+  "sha256": {
+    "README.md": "bf1476cc0227f15ced7ffda0a0ad0a2e4ee4739f893f5e8638d7e2f618e739c8",
+    "code/backend.py": "3208cad1ce3165117ce79533cae040d3da80e91ca194e7c0d44979559c486c2a",
+    "code/build_stimuli.py": "a633254831725221c1fc90ee2011003a3ed414f025c876b7db6866403bd9266a",
+    "code/catalog.py": "cb71038d849cc0e72945fb6673cd5846956daf304536bc89e8ccbfe36cabe4cf",
+    "code/generation.py": "002a194f162e0c7bcaad539dc84327fdc748e46d5236ae09b0995fbabadbf993",
+    "code/prompts.py": "861d1b8a6ec8690fae6786a7d183b0fa4f0850e62f1f7f1ae04e193503bf624b",
+    "code/recompute.py": "e9c906998cac1bb30622f8d1d10e9107b0adb00e86ee2773bb4a423f4a4843a9",
+    "code/replay_inference.py": "4ff2dbddb7b38ecc9f3cd684b2210c134cbb3b001dc52dbc3a69a376d29fc517",
+    "code/semantics.py": "0edffc7491b37461de1300b4775ea5dda4c6e5fde45036ee3b714d503b942cb2",
+    "configs/expected_results.json": "a24f2431e24d3bc394dbb920c593140f5c39b2c67edbb21db589be1450e59232",
+    "configs/experiments.json": "f32bd5cef85f685ca52b7f9bbda3fef5b5466db93ff64d942b2fae4a5bdb31a6",
+    "data/basic_problems.json": "73399ba0de09bcb420bca9de80a3d9d7c32f02d829611d038e86fdf0db3dd992",
+    "data/challenge_cases.json": "ac3f6df9fca62d40b8f28db8140839d5589e5970118edf6834ff32e292cb524b",
+    "data/prompts.jsonl": "9bd85f1d68e344bafd1f7f7ceb7047053018607bfc4414619386e3544c61d322",
+    "data/records.jsonl": "a2314a8d5ab164328c00879eefc81b9e57b4fc04291770f171ecf0ee6845f621",
+    "data/variants.json": "feef14725b566b96d7e977cb0988eb85f959c8b209836a7c44edd913627f4c06",
+    "requirements-inference.txt": "cb48d37a911f7e65266530c4b815d377616dbea9bdd6a4c33ed29de034674e50"
+  }
+}

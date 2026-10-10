@@ -1,0 +1,155 @@
+{
+  "qwen32_sampled_off": {
+    "model": {
+      "repo_id": "Qwen/Qwen3-32B",
+      "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+      "thinking": false
+    },
+    "enable_thinking": false,
+    "do_sample": true,
+    "base_seed": 42,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "min_p": 0.0,
+    "max_judge_tokens": 4096,
+    "max_update_tokens": 8192,
+    "batch_size": 1
+  },
+  "qwen32_sampled_on": {
+    "model": {
+      "repo_id": "Qwen/Qwen3-32B",
+      "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+      "thinking": true
+    },
+    "enable_thinking": true,
+    "do_sample": true,
+    "base_seed": 42,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "min_p": 0.0,
+    "max_judge_tokens": 4096,
+    "max_update_tokens": 8192,
+    "batch_size": 1
+  },
+  "qwen8_sampled_off": {
+    "model": {
+      "repo_id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "thinking": false
+    },
+    "enable_thinking": false,
+    "do_sample": true,
+    "base_seed": 42,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "min_p": 0.0,
+    "max_judge_tokens": 4096,
+    "max_update_tokens": 8192,
+    "batch_size": 1
+  },
+  "qwen8_sampled_on": {
+    "model": {
+      "repo_id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "thinking": true
+    },
+    "enable_thinking": true,
+    "do_sample": true,
+    "base_seed": 42,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "min_p": 0.0,
+    "max_judge_tokens": 4096,
+    "max_update_tokens": 8192,
+    "batch_size": 1
+  },
+  "qwen32_greedy": {
+    "model": {
+      "repo_id": "Qwen/Qwen3-32B",
+      "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+      "thinking": false
+    },
+    "enable_thinking": false,
+    "do_sample": false,
+    "base_seed": 42,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "min_p": null,
+    "max_judge_tokens": 32,
+    "max_update_tokens": 2048,
+    "batch_size": 1
+  },
+  "llama8_greedy": {
+    "model": {
+      "repo_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "thinking": null
+    },
+    "enable_thinking": null,
+    "do_sample": false,
+    "base_seed": 42,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "min_p": null,
+    "max_judge_tokens": 32,
+    "max_update_tokens": 2048,
+    "batch_size": 1
+  },
+  "intervention_original": {
+    "model": {
+      "repo_id": "Qwen/Qwen3-32B",
+      "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+      "thinking": true
+    },
+    "enable_thinking": true,
+    "do_sample": true,
+    "base_seed": 42,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "min_p": 0.0,
+    "max_judge_tokens": 4096,
+    "max_update_tokens": 8192,
+    "batch_size": 1
+  },
+  "intervention_paraphrase": {
+    "model": {
+      "repo_id": "Qwen/Qwen3-32B",
+      "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+      "thinking": true
+    },
+    "enable_thinking": true,
+    "do_sample": true,
+    "base_seed": 42,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "min_p": 0.0,
+    "max_judge_tokens": 4096,
+    "max_update_tokens": 8192,
+    "batch_size": 1
+  },
+  "intervention_paraphrase_instructions": {
+    "model": {
+      "repo_id": "Qwen/Qwen3-32B",
+      "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+      "thinking": true
+    },
+    "enable_thinking": true,
+    "do_sample": true,
+    "base_seed": 42,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "min_p": 0.0,
+    "max_judge_tokens": 4096,
+    "max_update_tokens": 8192,
+    "batch_size": 1
+  }
+}

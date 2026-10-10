@@ -1,0 +1,4 @@
+# Recorded core versions; not a complete historical dependency lock.
+# Install CUDA-enabled PyTorch 2.5.1 with CUDA 12.1 via its official distribution.
+torch==2.5.1
+transformers==5.17.0

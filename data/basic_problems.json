@@ -1,0 +1,6002 @@
+[
+  {
+    "id": "confirm_001",
+    "aligned_japanese_id": "confirm_001",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Ritsu Inoue",
+    "reference": "2025-01-01T09:00:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2025-01-01T09:00:00"
+      ],
+      "before_reference": [
+        null,
+        "2025-01-01T09:00:00"
+      ],
+      "at_reference": [
+        "2025-01-01T09:00:00",
+        "2025-01-01T09:00:01"
+      ]
+    },
+    "utterance": "The reference time is 2025-01-01 at 09:00:00. At the reference time, Ritsu Inoue served as a disaster-drill coordinator again. At the same time, Wataru Ueda is in the East Reception Building.",
+    "target_description": "serve as a disaster-drill coordinator",
+    "target_past_information": {
+      "subject": "Ritsu Inoue",
+      "predicate": "event",
+      "object": "serving as a disaster-drill coordinator",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Wataru Ueda",
+      "predicate": "location",
+      "object": "East Reception Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Ritsu Inoue",
+          "predicate": "event",
+          "object": "serving as a disaster-drill coordinator",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Ueda",
+          "predicate": "location",
+          "object": "East Reception Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Ritsu Inoue",
+          "predicate": "event",
+          "object": "serving as a disaster-drill coordinator",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Ritsu Inoue",
+          "predicate": "event",
+          "object": "serving as a disaster-drill coordinator",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Inoue",
+          "predicate": "event",
+          "object": "serving as a disaster-drill coordinator",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Ueda",
+          "predicate": "location",
+          "object": "East Reception Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Ritsu Inoue did not serve as a disaster-drill coordinator even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Ritsu Inoue",
+          "predicate": "event",
+          "object": "serving as a disaster-drill coordinator",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Ritsu Inoue did not serve as a disaster-drill coordinator even once at any time from birth until immediately before 2025-01-01 at 09:00:00.",
+        "fact": {
+          "subject": "Ritsu Inoue",
+          "predicate": "event",
+          "object": "serving as a disaster-drill coordinator",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Mio Ono did not serve as a disaster-drill coordinator even once at any time from birth until immediately before 2025-01-01 at 09:00:00.",
+        "fact": {
+          "subject": "Mio Ono",
+          "predicate": "event",
+          "object": "serving as a disaster-drill coordinator",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "serving as a disaster-drill coordinator": [
+        "serving as a disaster-drill coordinator"
+      ],
+      "East Reception Building": [
+        "East Reception Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2025-01-01 at 09:00:00"
+  },
+  {
+    "id": "confirm_002",
+    "aligned_japanese_id": "confirm_002",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Mio Ishida",
+    "reference": "2026-02-01T10:15:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2026-02-01T10:15:00"
+      ],
+      "before_reference": [
+        null,
+        "2026-02-01T10:15:00"
+      ],
+      "at_reference": [
+        "2026-02-01T10:15:00",
+        "2026-02-01T10:15:01"
+      ]
+    },
+    "utterance": "The reference time is 2026-02-01 at 10:15:00. The record states that, at the reference time, Mio Ishida read at a public reading session again. At the same time, Ritsu Yokoyama is in the South Liaison Building.",
+    "target_description": "read at a public reading session",
+    "target_past_information": {
+      "subject": "Mio Ishida",
+      "predicate": "event",
+      "object": "reading at a public reading session",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Ritsu Yokoyama",
+      "predicate": "location",
+      "object": "South Liaison Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Mio Ishida",
+          "predicate": "event",
+          "object": "reading at a public reading session",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Yokoyama",
+          "predicate": "location",
+          "object": "South Liaison Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Mio Ishida",
+          "predicate": "event",
+          "object": "reading at a public reading session",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Mio Ishida",
+          "predicate": "event",
+          "object": "reading at a public reading session",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Ishida",
+          "predicate": "event",
+          "object": "reading at a public reading session",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Yokoyama",
+          "predicate": "location",
+          "object": "South Liaison Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Mio Ishida did not read at a public reading session even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Mio Ishida",
+          "predicate": "event",
+          "object": "reading at a public reading session",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Mio Ishida did not read at a public reading session even once at any time from birth until immediately before 2026-02-01 at 10:15:00.",
+        "fact": {
+          "subject": "Mio Ishida",
+          "predicate": "event",
+          "object": "reading at a public reading session",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Wataru Kono did not read at a public reading session even once at any time from birth until immediately before 2026-02-01 at 10:15:00.",
+        "fact": {
+          "subject": "Wataru Kono",
+          "predicate": "event",
+          "object": "reading at a public reading session",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "reading at a public reading session": [
+        "reading at a public reading session"
+      ],
+      "South Liaison Building": [
+        "South Liaison Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2026-02-01 at 10:15:00"
+  },
+  {
+    "id": "confirm_003",
+    "aligned_japanese_id": "confirm_003",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Wataru Aoyama",
+    "reference": "2027-03-01T11:30:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2027-03-01T11:30:00"
+      ],
+      "before_reference": [
+        null,
+        "2027-03-01T11:30:00"
+      ],
+      "at_reference": [
+        "2027-03-01T11:30:00",
+        "2027-03-01T11:30:01"
+      ]
+    },
+    "utterance": "The reference time is 2027-03-01 at 11:30:00. At the reference time, it was Wataru Aoyama who conducted at a choral festival again. At the same time, Mio Fujita is in the Reception Building One.",
+    "target_description": "conduct at a choral festival",
+    "target_past_information": {
+      "subject": "Wataru Aoyama",
+      "predicate": "event",
+      "object": "conducting at a choral festival",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Mio Fujita",
+      "predicate": "location",
+      "object": "Reception Building One",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Wataru Aoyama",
+          "predicate": "event",
+          "object": "conducting at a choral festival",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Fujita",
+          "predicate": "location",
+          "object": "Reception Building One",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Wataru Aoyama",
+          "predicate": "event",
+          "object": "conducting at a choral festival",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Wataru Aoyama",
+          "predicate": "event",
+          "object": "conducting at a choral festival",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Aoyama",
+          "predicate": "event",
+          "object": "conducting at a choral festival",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Fujita",
+          "predicate": "location",
+          "object": "Reception Building One",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Wataru Aoyama did not conduct at a choral festival even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Wataru Aoyama",
+          "predicate": "event",
+          "object": "conducting at a choral festival",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Wataru Aoyama did not conduct at a choral festival even once at any time from birth until immediately before 2027-03-01 at 11:30:00.",
+        "fact": {
+          "subject": "Wataru Aoyama",
+          "predicate": "event",
+          "object": "conducting at a choral festival",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Ritsu Yasuda did not conduct at a choral festival even once at any time from birth until immediately before 2027-03-01 at 11:30:00.",
+        "fact": {
+          "subject": "Ritsu Yasuda",
+          "predicate": "event",
+          "object": "conducting at a choral festival",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "conducting at a choral festival": [
+        "conducting at a choral festival"
+      ],
+      "Reception Building One": [
+        "Reception Building One"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2027-03-01 at 11:30:00"
+  },
+  {
+    "id": "confirm_004",
+    "aligned_japanese_id": "confirm_004",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Ritsu Fujiwara",
+    "reference": "2025-04-01T12:45:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2025-04-01T12:45:00"
+      ],
+      "before_reference": [
+        null,
+        "2025-04-01T12:45:00"
+      ],
+      "at_reference": [
+        "2025-04-01T12:45:00",
+        "2025-04-01T12:45:01"
+      ]
+    },
+    "utterance": "The reference time is 2025-04-01 at 12:45:00. The event recorded at the reference time was that Ritsu Fujiwara performed a kamishibai storytelling show again. At the same time, Wataru Harada is in the West Administration Building.",
+    "target_description": "perform a kamishibai storytelling show",
+    "target_past_information": {
+      "subject": "Ritsu Fujiwara",
+      "predicate": "event",
+      "object": "performing a kamishibai storytelling show",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Wataru Harada",
+      "predicate": "location",
+      "object": "West Administration Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Ritsu Fujiwara",
+          "predicate": "event",
+          "object": "performing a kamishibai storytelling show",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Harada",
+          "predicate": "location",
+          "object": "West Administration Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Ritsu Fujiwara",
+          "predicate": "event",
+          "object": "performing a kamishibai storytelling show",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Ritsu Fujiwara",
+          "predicate": "event",
+          "object": "performing a kamishibai storytelling show",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Fujiwara",
+          "predicate": "event",
+          "object": "performing a kamishibai storytelling show",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Harada",
+          "predicate": "location",
+          "object": "West Administration Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Ritsu Fujiwara did not perform a kamishibai storytelling show even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Ritsu Fujiwara",
+          "predicate": "event",
+          "object": "performing a kamishibai storytelling show",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Ritsu Fujiwara did not perform a kamishibai storytelling show even once at any time from birth until immediately before 2025-04-01 at 12:45:00.",
+        "fact": {
+          "subject": "Ritsu Fujiwara",
+          "predicate": "event",
+          "object": "performing a kamishibai storytelling show",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Mio Miyata did not perform a kamishibai storytelling show even once at any time from birth until immediately before 2025-04-01 at 12:45:00.",
+        "fact": {
+          "subject": "Mio Miyata",
+          "predicate": "event",
+          "object": "performing a kamishibai storytelling show",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "performing a kamishibai storytelling show": [
+        "performing a kamishibai storytelling show"
+      ],
+      "West Administration Building": [
+        "West Administration Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2025-04-01 at 12:45:00"
+  },
+  {
+    "id": "confirm_005",
+    "aligned_japanese_id": "confirm_005",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Mio Murakami",
+    "reference": "2026-05-01T13:00:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2026-05-01T13:00:00"
+      ],
+      "before_reference": [
+        null,
+        "2026-05-01T13:00:00"
+      ],
+      "at_reference": [
+        "2026-05-01T13:00:00",
+        "2026-05-01T13:00:01"
+      ]
+    },
+    "utterance": "The reference time is 2026-05-01 at 13:00:00. According to the record, Mio Murakami provided sign-language interpretation again at the reference time. At the same time, Ritsu Nakano is in the North Records Building.",
+    "target_description": "provide sign-language interpretation",
+    "target_past_information": {
+      "subject": "Mio Murakami",
+      "predicate": "event",
+      "object": "providing sign-language interpretation",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Ritsu Nakano",
+      "predicate": "location",
+      "object": "North Records Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Mio Murakami",
+          "predicate": "event",
+          "object": "providing sign-language interpretation",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Nakano",
+          "predicate": "location",
+          "object": "North Records Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Mio Murakami",
+          "predicate": "event",
+          "object": "providing sign-language interpretation",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Mio Murakami",
+          "predicate": "event",
+          "object": "providing sign-language interpretation",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Murakami",
+          "predicate": "event",
+          "object": "providing sign-language interpretation",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Nakano",
+          "predicate": "location",
+          "object": "North Records Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Mio Murakami did not provide sign-language interpretation even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Mio Murakami",
+          "predicate": "event",
+          "object": "providing sign-language interpretation",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Mio Murakami did not provide sign-language interpretation even once at any time from birth until immediately before 2026-05-01 at 13:00:00.",
+        "fact": {
+          "subject": "Mio Murakami",
+          "predicate": "event",
+          "object": "providing sign-language interpretation",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Wataru Iwata did not provide sign-language interpretation even once at any time from birth until immediately before 2026-05-01 at 13:00:00.",
+        "fact": {
+          "subject": "Wataru Iwata",
+          "predicate": "event",
+          "object": "providing sign-language interpretation",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "providing sign-language interpretation": [
+        "providing sign-language interpretation"
+      ],
+      "North Records Building": [
+        "North Records Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2026-05-01 at 13:00:00"
+  },
+  {
+    "id": "confirm_006",
+    "aligned_japanese_id": "confirm_006",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Wataru Nakanishi",
+    "reference": "2027-06-01T14:15:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2027-06-01T14:15:00"
+      ],
+      "before_reference": [
+        null,
+        "2027-06-01T14:15:00"
+      ],
+      "at_reference": [
+        "2027-06-01T14:15:00",
+        "2027-06-01T14:15:01"
+      ]
+    },
+    "utterance": "The reference time is 2027-06-01 at 14:15:00. Wataru Nakanishi guided an astronomical observation session again at the reference time, as recorded. At the same time, Mio Furukawa is in the Waiting Building Two.",
+    "target_description": "guide an astronomical observation session",
+    "target_past_information": {
+      "subject": "Wataru Nakanishi",
+      "predicate": "event",
+      "object": "guiding an astronomical observation session",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Mio Furukawa",
+      "predicate": "location",
+      "object": "Waiting Building Two",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Wataru Nakanishi",
+          "predicate": "event",
+          "object": "guiding an astronomical observation session",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Furukawa",
+          "predicate": "location",
+          "object": "Waiting Building Two",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Wataru Nakanishi",
+          "predicate": "event",
+          "object": "guiding an astronomical observation session",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Wataru Nakanishi",
+          "predicate": "event",
+          "object": "guiding an astronomical observation session",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Nakanishi",
+          "predicate": "event",
+          "object": "guiding an astronomical observation session",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Furukawa",
+          "predicate": "location",
+          "object": "Waiting Building Two",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Wataru Nakanishi did not guide an astronomical observation session even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Wataru Nakanishi",
+          "predicate": "event",
+          "object": "guiding an astronomical observation session",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Wataru Nakanishi did not guide an astronomical observation session even once at any time from birth until immediately before 2027-06-01 at 14:15:00.",
+        "fact": {
+          "subject": "Wataru Nakanishi",
+          "predicate": "event",
+          "object": "guiding an astronomical observation session",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Ritsu Kubo did not guide an astronomical observation session even once at any time from birth until immediately before 2027-06-01 at 14:15:00.",
+        "fact": {
+          "subject": "Ritsu Kubo",
+          "predicate": "event",
+          "object": "guiding an astronomical observation session",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "guiding an astronomical observation session": [
+        "guiding an astronomical observation session"
+      ],
+      "Waiting Building Two": [
+        "Waiting Building Two"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2027-06-01 at 14:15:00"
+  },
+  {
+    "id": "confirm_007",
+    "aligned_japanese_id": "confirm_007",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Ritsu Kawamura",
+    "reference": "2025-07-01T15:30:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2025-07-01T15:30:00"
+      ],
+      "before_reference": [
+        null,
+        "2025-07-01T15:30:00"
+      ],
+      "at_reference": [
+        "2025-07-01T15:30:00",
+        "2025-07-01T15:30:01"
+      ]
+    },
+    "utterance": "The reference time is 2025-07-01 at 15:30:00. At the reference time, Ritsu Kawamura played a bamboo flute in public again. At the same time, Wataru Imai is in the East Reception Building.",
+    "target_description": "play a bamboo flute in public",
+    "target_past_information": {
+      "subject": "Ritsu Kawamura",
+      "predicate": "event",
+      "object": "playing a bamboo flute in public",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Wataru Imai",
+      "predicate": "location",
+      "object": "East Reception Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Ritsu Kawamura",
+          "predicate": "event",
+          "object": "playing a bamboo flute in public",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Imai",
+          "predicate": "location",
+          "object": "East Reception Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Ritsu Kawamura",
+          "predicate": "event",
+          "object": "playing a bamboo flute in public",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Ritsu Kawamura",
+          "predicate": "event",
+          "object": "playing a bamboo flute in public",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Kawamura",
+          "predicate": "event",
+          "object": "playing a bamboo flute in public",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Imai",
+          "predicate": "location",
+          "object": "East Reception Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Ritsu Kawamura did not play a bamboo flute in public even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Ritsu Kawamura",
+          "predicate": "event",
+          "object": "playing a bamboo flute in public",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Ritsu Kawamura did not play a bamboo flute in public even once at any time from birth until immediately before 2025-07-01 at 15:30:00.",
+        "fact": {
+          "subject": "Ritsu Kawamura",
+          "predicate": "event",
+          "object": "playing a bamboo flute in public",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Mio Katayama did not play a bamboo flute in public even once at any time from birth until immediately before 2025-07-01 at 15:30:00.",
+        "fact": {
+          "subject": "Mio Katayama",
+          "predicate": "event",
+          "object": "playing a bamboo flute in public",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "playing a bamboo flute in public": [
+        "playing a bamboo flute in public"
+      ],
+      "East Reception Building": [
+        "East Reception Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2025-07-01 at 15:30:00"
+  },
+  {
+    "id": "confirm_008",
+    "aligned_japanese_id": "confirm_008",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Mio Okada",
+    "reference": "2026-08-01T16:45:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2026-08-01T16:45:00"
+      ],
+      "before_reference": [
+        null,
+        "2026-08-01T16:45:00"
+      ],
+      "at_reference": [
+        "2026-08-01T16:45:00",
+        "2026-08-01T16:45:01"
+      ]
+    },
+    "utterance": "The reference time is 2026-08-01 at 16:45:00. The record states that, at the reference time, Mio Okada moderated a book discussion again. At the same time, Ritsu Kaneko is in the South Liaison Building.",
+    "target_description": "moderate a book discussion",
+    "target_past_information": {
+      "subject": "Mio Okada",
+      "predicate": "event",
+      "object": "moderating a book discussion",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Ritsu Kaneko",
+      "predicate": "location",
+      "object": "South Liaison Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Mio Okada",
+          "predicate": "event",
+          "object": "moderating a book discussion",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Kaneko",
+          "predicate": "location",
+          "object": "South Liaison Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Mio Okada",
+          "predicate": "event",
+          "object": "moderating a book discussion",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Mio Okada",
+          "predicate": "event",
+          "object": "moderating a book discussion",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Okada",
+          "predicate": "event",
+          "object": "moderating a book discussion",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Kaneko",
+          "predicate": "location",
+          "object": "South Liaison Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Mio Okada did not moderate a book discussion even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Mio Okada",
+          "predicate": "event",
+          "object": "moderating a book discussion",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Mio Okada did not moderate a book discussion even once at any time from birth until immediately before 2026-08-01 at 16:45:00.",
+        "fact": {
+          "subject": "Mio Okada",
+          "predicate": "event",
+          "object": "moderating a book discussion",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Wataru Tanabe did not moderate a book discussion even once at any time from birth until immediately before 2026-08-01 at 16:45:00.",
+        "fact": {
+          "subject": "Wataru Tanabe",
+          "predicate": "event",
+          "object": "moderating a book discussion",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "moderating a book discussion": [
+        "moderating a book discussion"
+      ],
+      "South Liaison Building": [
+        "South Liaison Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2026-08-01 at 16:45:00"
+  },
+  {
+    "id": "confirm_009",
+    "aligned_japanese_id": "confirm_009",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Wataru Hasegawa",
+    "reference": "2027-09-01T09:00:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2027-09-01T09:00:00"
+      ],
+      "before_reference": [
+        null,
+        "2027-09-01T09:00:00"
+      ],
+      "at_reference": [
+        "2027-09-01T09:00:00",
+        "2027-09-01T09:00:01"
+      ]
+    },
+    "utterance": "The reference time is 2027-09-01 at 09:00:00. At the reference time, it was Wataru Hasegawa who spoke on a public debate panel again. At the same time, Mio Sakamoto is in the Reception Building One.",
+    "target_description": "speak on a public debate panel",
+    "target_past_information": {
+      "subject": "Wataru Hasegawa",
+      "predicate": "event",
+      "object": "speaking on a public debate panel",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Mio Sakamoto",
+      "predicate": "location",
+      "object": "Reception Building One",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Wataru Hasegawa",
+          "predicate": "event",
+          "object": "speaking on a public debate panel",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Sakamoto",
+          "predicate": "location",
+          "object": "Reception Building One",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Wataru Hasegawa",
+          "predicate": "event",
+          "object": "speaking on a public debate panel",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Wataru Hasegawa",
+          "predicate": "event",
+          "object": "speaking on a public debate panel",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Hasegawa",
+          "predicate": "event",
+          "object": "speaking on a public debate panel",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Sakamoto",
+          "predicate": "location",
+          "object": "Reception Building One",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Wataru Hasegawa did not speak on a public debate panel even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Wataru Hasegawa",
+          "predicate": "event",
+          "object": "speaking on a public debate panel",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Wataru Hasegawa did not speak on a public debate panel even once at any time from birth until immediately before 2027-09-01 at 09:00:00.",
+        "fact": {
+          "subject": "Wataru Hasegawa",
+          "predicate": "event",
+          "object": "speaking on a public debate panel",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Ritsu Takagi did not speak on a public debate panel even once at any time from birth until immediately before 2027-09-01 at 09:00:00.",
+        "fact": {
+          "subject": "Ritsu Takagi",
+          "predicate": "event",
+          "object": "speaking on a public debate panel",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "speaking on a public debate panel": [
+        "speaking on a public debate panel"
+      ],
+      "Reception Building One": [
+        "Reception Building One"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2027-09-01 at 09:00:00"
+  },
+  {
+    "id": "confirm_010",
+    "aligned_japanese_id": "confirm_010",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Ritsu Morita",
+    "reference": "2025-10-01T10:15:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2025-10-01T10:15:00"
+      ],
+      "before_reference": [
+        null,
+        "2025-10-01T10:15:00"
+      ],
+      "at_reference": [
+        "2025-10-01T10:15:00",
+        "2025-10-01T10:15:01"
+      ]
+    },
+    "utterance": "The reference time is 2025-10-01 at 10:15:00. The event recorded at the reference time was that Ritsu Morita refereed a robotics competition again. At the same time, Wataru Kondo is in the West Administration Building.",
+    "target_description": "referee a robotics competition",
+    "target_past_information": {
+      "subject": "Ritsu Morita",
+      "predicate": "event",
+      "object": "refereeing a robotics competition",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Wataru Kondo",
+      "predicate": "location",
+      "object": "West Administration Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Ritsu Morita",
+          "predicate": "event",
+          "object": "refereeing a robotics competition",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Kondo",
+          "predicate": "location",
+          "object": "West Administration Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Ritsu Morita",
+          "predicate": "event",
+          "object": "refereeing a robotics competition",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Ritsu Morita",
+          "predicate": "event",
+          "object": "refereeing a robotics competition",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Morita",
+          "predicate": "event",
+          "object": "refereeing a robotics competition",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Kondo",
+          "predicate": "location",
+          "object": "West Administration Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Ritsu Morita did not referee a robotics competition even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Ritsu Morita",
+          "predicate": "event",
+          "object": "refereeing a robotics competition",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Ritsu Morita did not referee a robotics competition even once at any time from birth until immediately before 2025-10-01 at 10:15:00.",
+        "fact": {
+          "subject": "Ritsu Morita",
+          "predicate": "event",
+          "object": "refereeing a robotics competition",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Mio Hirano did not referee a robotics competition even once at any time from birth until immediately before 2025-10-01 at 10:15:00.",
+        "fact": {
+          "subject": "Mio Hirano",
+          "predicate": "event",
+          "object": "refereeing a robotics competition",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "refereeing a robotics competition": [
+        "refereeing a robotics competition"
+      ],
+      "West Administration Building": [
+        "West Administration Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2025-10-01 at 10:15:00"
+  },
+  {
+    "id": "confirm_011",
+    "aligned_japanese_id": "confirm_011",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Mio Ogawa",
+    "reference": "2026-11-01T11:30:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2026-11-01T11:30:00"
+      ],
+      "before_reference": [
+        null,
+        "2026-11-01T11:30:00"
+      ],
+      "at_reference": [
+        "2026-11-01T11:30:00",
+        "2026-11-01T11:30:01"
+      ]
+    },
+    "utterance": "The reference time is 2026-11-01 at 11:30:00. According to the record, Mio Ogawa ran a leg of an ekiden relay again at the reference time. At the same time, Ritsu Takeda is in the North Records Building.",
+    "target_description": "run a leg of an ekiden relay",
+    "target_past_information": {
+      "subject": "Mio Ogawa",
+      "predicate": "event",
+      "object": "running a leg of an ekiden relay",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Ritsu Takeda",
+      "predicate": "location",
+      "object": "North Records Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Mio Ogawa",
+          "predicate": "event",
+          "object": "running a leg of an ekiden relay",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Takeda",
+          "predicate": "location",
+          "object": "North Records Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Mio Ogawa",
+          "predicate": "event",
+          "object": "running a leg of an ekiden relay",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Mio Ogawa",
+          "predicate": "event",
+          "object": "running a leg of an ekiden relay",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Ogawa",
+          "predicate": "event",
+          "object": "running a leg of an ekiden relay",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Takeda",
+          "predicate": "location",
+          "object": "North Records Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Mio Ogawa did not run a leg of an ekiden relay even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Mio Ogawa",
+          "predicate": "event",
+          "object": "running a leg of an ekiden relay",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Mio Ogawa did not run a leg of an ekiden relay even once at any time from birth until immediately before 2026-11-01 at 11:30:00.",
+        "fact": {
+          "subject": "Mio Ogawa",
+          "predicate": "event",
+          "object": "running a leg of an ekiden relay",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Wataru Okumura did not run a leg of an ekiden relay even once at any time from birth until immediately before 2026-11-01 at 11:30:00.",
+        "fact": {
+          "subject": "Wataru Okumura",
+          "predicate": "event",
+          "object": "running a leg of an ekiden relay",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "running a leg of an ekiden relay": [
+        "running a leg of an ekiden relay"
+      ],
+      "North Records Building": [
+        "North Records Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2026-11-01 at 11:30:00"
+  },
+  {
+    "id": "confirm_012",
+    "aligned_japanese_id": "confirm_012",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Wataru Yamagishi",
+    "reference": "2027-12-01T12:45:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2027-12-01T12:45:00"
+      ],
+      "before_reference": [
+        null,
+        "2027-12-01T12:45:00"
+      ],
+      "at_reference": [
+        "2027-12-01T12:45:00",
+        "2027-12-01T12:45:01"
+      ]
+    },
+    "utterance": "The reference time is 2027-12-01 at 12:45:00. Wataru Yamagishi taught an origami class again at the reference time, as recorded. At the same time, Mio Inoue is in the Waiting Building Two.",
+    "target_description": "teach an origami class",
+    "target_past_information": {
+      "subject": "Wataru Yamagishi",
+      "predicate": "event",
+      "object": "teaching an origami class",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Mio Inoue",
+      "predicate": "location",
+      "object": "Waiting Building Two",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Wataru Yamagishi",
+          "predicate": "event",
+          "object": "teaching an origami class",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Inoue",
+          "predicate": "location",
+          "object": "Waiting Building Two",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Wataru Yamagishi",
+          "predicate": "event",
+          "object": "teaching an origami class",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Wataru Yamagishi",
+          "predicate": "event",
+          "object": "teaching an origami class",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Yamagishi",
+          "predicate": "event",
+          "object": "teaching an origami class",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Inoue",
+          "predicate": "location",
+          "object": "Waiting Building Two",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Wataru Yamagishi did not teach an origami class even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Wataru Yamagishi",
+          "predicate": "event",
+          "object": "teaching an origami class",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Wataru Yamagishi did not teach an origami class even once at any time from birth until immediately before 2027-12-01 at 12:45:00.",
+        "fact": {
+          "subject": "Wataru Yamagishi",
+          "predicate": "event",
+          "object": "teaching an origami class",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Ritsu Fukuda did not teach an origami class even once at any time from birth until immediately before 2027-12-01 at 12:45:00.",
+        "fact": {
+          "subject": "Ritsu Fukuda",
+          "predicate": "event",
+          "object": "teaching an origami class",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "teaching an origami class": [
+        "teaching an origami class"
+      ],
+      "Waiting Building Two": [
+        "Waiting Building Two"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2027-12-01 at 12:45:00"
+  },
+  {
+    "id": "confirm_013",
+    "aligned_japanese_id": "confirm_013",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Ritsu Ishikawa",
+    "reference": "2025-01-02T13:00:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2025-01-02T13:00:00"
+      ],
+      "before_reference": [
+        null,
+        "2025-01-02T13:00:00"
+      ],
+      "at_reference": [
+        "2025-01-02T13:00:00",
+        "2025-01-02T13:00:01"
+      ]
+    },
+    "utterance": "The reference time is 2025-01-02 at 13:00:00. At the reference time, Ritsu Ishikawa conducted local-history interviews again. At the same time, Wataru Ishida is in the East Reception Building.",
+    "target_description": "conduct local-history interviews",
+    "target_past_information": {
+      "subject": "Ritsu Ishikawa",
+      "predicate": "event",
+      "object": "conducting local-history interviews",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Wataru Ishida",
+      "predicate": "location",
+      "object": "East Reception Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Ritsu Ishikawa",
+          "predicate": "event",
+          "object": "conducting local-history interviews",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Ishida",
+          "predicate": "location",
+          "object": "East Reception Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Ritsu Ishikawa",
+          "predicate": "event",
+          "object": "conducting local-history interviews",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Ritsu Ishikawa",
+          "predicate": "event",
+          "object": "conducting local-history interviews",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Ishikawa",
+          "predicate": "event",
+          "object": "conducting local-history interviews",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Ishida",
+          "predicate": "location",
+          "object": "East Reception Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Ritsu Ishikawa did not conduct local-history interviews even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Ritsu Ishikawa",
+          "predicate": "event",
+          "object": "conducting local-history interviews",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Ritsu Ishikawa did not conduct local-history interviews even once at any time from birth until immediately before 2025-01-02 at 13:00:00.",
+        "fact": {
+          "subject": "Ritsu Ishikawa",
+          "predicate": "event",
+          "object": "conducting local-history interviews",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Mio Ueda did not conduct local-history interviews even once at any time from birth until immediately before 2025-01-02 at 13:00:00.",
+        "fact": {
+          "subject": "Mio Ueda",
+          "predicate": "event",
+          "object": "conducting local-history interviews",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "conducting local-history interviews": [
+        "conducting local-history interviews"
+      ],
+      "East Reception Building": [
+        "East Reception Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2025-01-02 at 13:00:00"
+  },
+  {
+    "id": "confirm_014",
+    "aligned_japanese_id": "confirm_014",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Mio Nishimura",
+    "reference": "2026-02-02T14:15:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2026-02-02T14:15:00"
+      ],
+      "before_reference": [
+        null,
+        "2026-02-02T14:15:00"
+      ],
+      "at_reference": [
+        "2026-02-02T14:15:00",
+        "2026-02-02T14:15:01"
+      ]
+    },
+    "utterance": "The reference time is 2026-02-02 at 14:15:00. The record states that, at the reference time, Mio Nishimura collected river-water samples for a water-quality survey again. At the same time, Ritsu Aoyama is in the South Liaison Building.",
+    "target_description": "collect river-water samples for a water-quality survey",
+    "target_past_information": {
+      "subject": "Mio Nishimura",
+      "predicate": "event",
+      "object": "collecting river-water samples for a water-quality survey",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Ritsu Aoyama",
+      "predicate": "location",
+      "object": "South Liaison Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Mio Nishimura",
+          "predicate": "event",
+          "object": "collecting river-water samples for a water-quality survey",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Aoyama",
+          "predicate": "location",
+          "object": "South Liaison Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Mio Nishimura",
+          "predicate": "event",
+          "object": "collecting river-water samples for a water-quality survey",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Mio Nishimura",
+          "predicate": "event",
+          "object": "collecting river-water samples for a water-quality survey",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Nishimura",
+          "predicate": "event",
+          "object": "collecting river-water samples for a water-quality survey",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Aoyama",
+          "predicate": "location",
+          "object": "South Liaison Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Mio Nishimura did not collect river-water samples for a water-quality survey even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Mio Nishimura",
+          "predicate": "event",
+          "object": "collecting river-water samples for a water-quality survey",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Mio Nishimura did not collect river-water samples for a water-quality survey even once at any time from birth until immediately before 2026-02-02 at 14:15:00.",
+        "fact": {
+          "subject": "Mio Nishimura",
+          "predicate": "event",
+          "object": "collecting river-water samples for a water-quality survey",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Wataru Yokoyama did not collect river-water samples for a water-quality survey even once at any time from birth until immediately before 2026-02-02 at 14:15:00.",
+        "fact": {
+          "subject": "Wataru Yokoyama",
+          "predicate": "event",
+          "object": "collecting river-water samples for a water-quality survey",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "collecting river-water samples for a water-quality survey": [
+        "collecting river-water samples for a water-quality survey"
+      ],
+      "South Liaison Building": [
+        "South Liaison Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2026-02-02 at 14:15:00"
+  },
+  {
+    "id": "confirm_015",
+    "aligned_japanese_id": "confirm_015",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Wataru Hashimoto",
+    "reference": "2027-03-02T15:30:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2027-03-02T15:30:00"
+      ],
+      "before_reference": [
+        null,
+        "2027-03-02T15:30:00"
+      ],
+      "at_reference": [
+        "2027-03-02T15:30:00",
+        "2027-03-02T15:30:01"
+      ]
+    },
+    "utterance": "The reference time is 2027-03-02 at 15:30:00. At the reference time, it was Wataru Hashimoto who surveyed an archaeological site again. At the same time, Mio Fujiwara is in the Reception Building One.",
+    "target_description": "survey an archaeological site",
+    "target_past_information": {
+      "subject": "Wataru Hashimoto",
+      "predicate": "event",
+      "object": "surveying an archaeological site",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Mio Fujiwara",
+      "predicate": "location",
+      "object": "Reception Building One",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Wataru Hashimoto",
+          "predicate": "event",
+          "object": "surveying an archaeological site",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Fujiwara",
+          "predicate": "location",
+          "object": "Reception Building One",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Wataru Hashimoto",
+          "predicate": "event",
+          "object": "surveying an archaeological site",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Wataru Hashimoto",
+          "predicate": "event",
+          "object": "surveying an archaeological site",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Hashimoto",
+          "predicate": "event",
+          "object": "surveying an archaeological site",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Fujiwara",
+          "predicate": "location",
+          "object": "Reception Building One",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Wataru Hashimoto did not survey an archaeological site even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Wataru Hashimoto",
+          "predicate": "event",
+          "object": "surveying an archaeological site",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Wataru Hashimoto did not survey an archaeological site even once at any time from birth until immediately before 2027-03-02 at 15:30:00.",
+        "fact": {
+          "subject": "Wataru Hashimoto",
+          "predicate": "event",
+          "object": "surveying an archaeological site",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Ritsu Fujita did not survey an archaeological site even once at any time from birth until immediately before 2027-03-02 at 15:30:00.",
+        "fact": {
+          "subject": "Ritsu Fujita",
+          "predicate": "event",
+          "object": "surveying an archaeological site",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "surveying an archaeological site": [
+        "surveying an archaeological site"
+      ],
+      "Reception Building One": [
+        "Reception Building One"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2027-03-02 at 15:30:00"
+  },
+  {
+    "id": "confirm_016",
+    "aligned_japanese_id": "confirm_016",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Ritsu Matsuoka",
+    "reference": "2025-04-02T16:45:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2025-04-02T16:45:00"
+      ],
+      "before_reference": [
+        null,
+        "2025-04-02T16:45:00"
+      ],
+      "at_reference": [
+        "2025-04-02T16:45:00",
+        "2025-04-02T16:45:01"
+      ]
+    },
+    "utterance": "The reference time is 2025-04-02 at 16:45:00. The event recorded at the reference time was that Ritsu Matsuoka read a picture book aloud to an audience again. At the same time, Wataru Murakami is in the West Administration Building.",
+    "target_description": "read a picture book aloud to an audience",
+    "target_past_information": {
+      "subject": "Ritsu Matsuoka",
+      "predicate": "event",
+      "object": "reading a picture book aloud to an audience",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Wataru Murakami",
+      "predicate": "location",
+      "object": "West Administration Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Ritsu Matsuoka",
+          "predicate": "event",
+          "object": "reading a picture book aloud to an audience",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Murakami",
+          "predicate": "location",
+          "object": "West Administration Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Ritsu Matsuoka",
+          "predicate": "event",
+          "object": "reading a picture book aloud to an audience",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Ritsu Matsuoka",
+          "predicate": "event",
+          "object": "reading a picture book aloud to an audience",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Matsuoka",
+          "predicate": "event",
+          "object": "reading a picture book aloud to an audience",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Murakami",
+          "predicate": "location",
+          "object": "West Administration Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Ritsu Matsuoka did not read a picture book aloud to an audience even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Ritsu Matsuoka",
+          "predicate": "event",
+          "object": "reading a picture book aloud to an audience",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Ritsu Matsuoka did not read a picture book aloud to an audience even once at any time from birth until immediately before 2025-04-02 at 16:45:00.",
+        "fact": {
+          "subject": "Ritsu Matsuoka",
+          "predicate": "event",
+          "object": "reading a picture book aloud to an audience",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Mio Harada did not read a picture book aloud to an audience even once at any time from birth until immediately before 2025-04-02 at 16:45:00.",
+        "fact": {
+          "subject": "Mio Harada",
+          "predicate": "event",
+          "object": "reading a picture book aloud to an audience",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "reading a picture book aloud to an audience": [
+        "reading a picture book aloud to an audience"
+      ],
+      "West Administration Building": [
+        "West Administration Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2025-04-02 at 16:45:00"
+  },
+  {
+    "id": "confirm_017",
+    "aligned_japanese_id": "confirm_017",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Mio Yoshikawa",
+    "reference": "2026-05-02T09:00:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2026-05-02T09:00:00"
+      ],
+      "before_reference": [
+        null,
+        "2026-05-02T09:00:00"
+      ],
+      "at_reference": [
+        "2026-05-02T09:00:00",
+        "2026-05-02T09:00:01"
+      ]
+    },
+    "utterance": "The reference time is 2026-05-02 at 09:00:00. According to the record, Mio Yoshikawa supervised the setup of an evacuation shelter again at the reference time. At the same time, Ritsu Nakanishi is in the North Records Building.",
+    "target_description": "supervise the setup of an evacuation shelter",
+    "target_past_information": {
+      "subject": "Mio Yoshikawa",
+      "predicate": "event",
+      "object": "supervising the setup of an evacuation shelter",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Ritsu Nakanishi",
+      "predicate": "location",
+      "object": "North Records Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Mio Yoshikawa",
+          "predicate": "event",
+          "object": "supervising the setup of an evacuation shelter",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Nakanishi",
+          "predicate": "location",
+          "object": "North Records Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Mio Yoshikawa",
+          "predicate": "event",
+          "object": "supervising the setup of an evacuation shelter",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Mio Yoshikawa",
+          "predicate": "event",
+          "object": "supervising the setup of an evacuation shelter",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Yoshikawa",
+          "predicate": "event",
+          "object": "supervising the setup of an evacuation shelter",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Nakanishi",
+          "predicate": "location",
+          "object": "North Records Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Mio Yoshikawa did not supervise the setup of an evacuation shelter even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Mio Yoshikawa",
+          "predicate": "event",
+          "object": "supervising the setup of an evacuation shelter",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Mio Yoshikawa did not supervise the setup of an evacuation shelter even once at any time from birth until immediately before 2026-05-02 at 09:00:00.",
+        "fact": {
+          "subject": "Mio Yoshikawa",
+          "predicate": "event",
+          "object": "supervising the setup of an evacuation shelter",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Wataru Nakano did not supervise the setup of an evacuation shelter even once at any time from birth until immediately before 2026-05-02 at 09:00:00.",
+        "fact": {
+          "subject": "Wataru Nakano",
+          "predicate": "event",
+          "object": "supervising the setup of an evacuation shelter",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "supervising the setup of an evacuation shelter": [
+        "supervising the setup of an evacuation shelter"
+      ],
+      "North Records Building": [
+        "North Records Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2026-05-02 at 09:00:00"
+  },
+  {
+    "id": "confirm_018",
+    "aligned_japanese_id": "confirm_018",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Wataru Ono",
+    "reference": "2027-06-02T10:15:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2027-06-02T10:15:00"
+      ],
+      "before_reference": [
+        null,
+        "2027-06-02T10:15:00"
+      ],
+      "at_reference": [
+        "2027-06-02T10:15:00",
+        "2027-06-02T10:15:01"
+      ]
+    },
+    "utterance": "The reference time is 2027-06-02 at 10:15:00. Wataru Ono assessed the health of park trees again at the reference time, as recorded. At the same time, Mio Kawamura is in the Waiting Building Two.",
+    "target_description": "assess the health of park trees",
+    "target_past_information": {
+      "subject": "Wataru Ono",
+      "predicate": "event",
+      "object": "assessing the health of park trees",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Mio Kawamura",
+      "predicate": "location",
+      "object": "Waiting Building Two",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Wataru Ono",
+          "predicate": "event",
+          "object": "assessing the health of park trees",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Kawamura",
+          "predicate": "location",
+          "object": "Waiting Building Two",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Wataru Ono",
+          "predicate": "event",
+          "object": "assessing the health of park trees",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Wataru Ono",
+          "predicate": "event",
+          "object": "assessing the health of park trees",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Ono",
+          "predicate": "event",
+          "object": "assessing the health of park trees",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Kawamura",
+          "predicate": "location",
+          "object": "Waiting Building Two",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Wataru Ono did not assess the health of park trees even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Wataru Ono",
+          "predicate": "event",
+          "object": "assessing the health of park trees",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Wataru Ono did not assess the health of park trees even once at any time from birth until immediately before 2027-06-02 at 10:15:00.",
+        "fact": {
+          "subject": "Wataru Ono",
+          "predicate": "event",
+          "object": "assessing the health of park trees",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Ritsu Furukawa did not assess the health of park trees even once at any time from birth until immediately before 2027-06-02 at 10:15:00.",
+        "fact": {
+          "subject": "Ritsu Furukawa",
+          "predicate": "event",
+          "object": "assessing the health of park trees",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "assessing the health of park trees": [
+        "assessing the health of park trees"
+      ],
+      "Waiting Building Two": [
+        "Waiting Building Two"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2027-06-02 at 10:15:00"
+  },
+  {
+    "id": "confirm_019",
+    "aligned_japanese_id": "confirm_019",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Ritsu Kono",
+    "reference": "2025-07-02T11:30:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2025-07-02T11:30:00"
+      ],
+      "before_reference": [
+        null,
+        "2025-07-02T11:30:00"
+      ],
+      "at_reference": [
+        "2025-07-02T11:30:00",
+        "2025-07-02T11:30:01"
+      ]
+    },
+    "utterance": "The reference time is 2025-07-02 at 11:30:00. At the reference time, Ritsu Kono proofread Braille materials again. At the same time, Wataru Okada is in the East Reception Building.",
+    "target_description": "proofread Braille materials",
+    "target_past_information": {
+      "subject": "Ritsu Kono",
+      "predicate": "event",
+      "object": "proofreading Braille materials",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Wataru Okada",
+      "predicate": "location",
+      "object": "East Reception Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Ritsu Kono",
+          "predicate": "event",
+          "object": "proofreading Braille materials",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Okada",
+          "predicate": "location",
+          "object": "East Reception Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Ritsu Kono",
+          "predicate": "event",
+          "object": "proofreading Braille materials",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Ritsu Kono",
+          "predicate": "event",
+          "object": "proofreading Braille materials",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Kono",
+          "predicate": "event",
+          "object": "proofreading Braille materials",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Okada",
+          "predicate": "location",
+          "object": "East Reception Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Ritsu Kono did not proofread Braille materials even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Ritsu Kono",
+          "predicate": "event",
+          "object": "proofreading Braille materials",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Ritsu Kono did not proofread Braille materials even once at any time from birth until immediately before 2025-07-02 at 11:30:00.",
+        "fact": {
+          "subject": "Ritsu Kono",
+          "predicate": "event",
+          "object": "proofreading Braille materials",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Mio Imai did not proofread Braille materials even once at any time from birth until immediately before 2025-07-02 at 11:30:00.",
+        "fact": {
+          "subject": "Mio Imai",
+          "predicate": "event",
+          "object": "proofreading Braille materials",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "proofreading Braille materials": [
+        "proofreading Braille materials"
+      ],
+      "East Reception Building": [
+        "East Reception Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2025-07-02 at 11:30:00"
+  },
+  {
+    "id": "confirm_020",
+    "aligned_japanese_id": "confirm_020",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Mio Yasuda",
+    "reference": "2026-08-02T12:45:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2026-08-02T12:45:00"
+      ],
+      "before_reference": [
+        null,
+        "2026-08-02T12:45:00"
+      ],
+      "at_reference": [
+        "2026-08-02T12:45:00",
+        "2026-08-02T12:45:01"
+      ]
+    },
+    "utterance": "The reference time is 2026-08-02 at 12:45:00. The record states that, at the reference time, Mio Yasuda photographed cultural artifacts for documentation again. At the same time, Ritsu Hasegawa is in the South Liaison Building.",
+    "target_description": "photograph cultural artifacts for documentation",
+    "target_past_information": {
+      "subject": "Mio Yasuda",
+      "predicate": "event",
+      "object": "photographing cultural artifacts for documentation",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Ritsu Hasegawa",
+      "predicate": "location",
+      "object": "South Liaison Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Mio Yasuda",
+          "predicate": "event",
+          "object": "photographing cultural artifacts for documentation",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Hasegawa",
+          "predicate": "location",
+          "object": "South Liaison Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Mio Yasuda",
+          "predicate": "event",
+          "object": "photographing cultural artifacts for documentation",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Mio Yasuda",
+          "predicate": "event",
+          "object": "photographing cultural artifacts for documentation",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Yasuda",
+          "predicate": "event",
+          "object": "photographing cultural artifacts for documentation",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Hasegawa",
+          "predicate": "location",
+          "object": "South Liaison Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Mio Yasuda did not photograph cultural artifacts for documentation even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Mio Yasuda",
+          "predicate": "event",
+          "object": "photographing cultural artifacts for documentation",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Mio Yasuda did not photograph cultural artifacts for documentation even once at any time from birth until immediately before 2026-08-02 at 12:45:00.",
+        "fact": {
+          "subject": "Mio Yasuda",
+          "predicate": "event",
+          "object": "photographing cultural artifacts for documentation",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Wataru Kaneko did not photograph cultural artifacts for documentation even once at any time from birth until immediately before 2026-08-02 at 12:45:00.",
+        "fact": {
+          "subject": "Wataru Kaneko",
+          "predicate": "event",
+          "object": "photographing cultural artifacts for documentation",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "photographing cultural artifacts for documentation": [
+        "photographing cultural artifacts for documentation"
+      ],
+      "South Liaison Building": [
+        "South Liaison Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2026-08-02 at 12:45:00"
+  },
+  {
+    "id": "confirm_021",
+    "aligned_japanese_id": "confirm_021",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Wataru Miyata",
+    "reference": "2027-09-02T13:00:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2027-09-02T13:00:00"
+      ],
+      "before_reference": [
+        null,
+        "2027-09-02T13:00:00"
+      ],
+      "at_reference": [
+        "2027-09-02T13:00:00",
+        "2027-09-02T13:00:01"
+      ]
+    },
+    "utterance": "The reference time is 2027-09-02 at 13:00:00. At the reference time, it was Wataru Miyata who ran a board-game tournament again. At the same time, Mio Morita is in the Reception Building One.",
+    "target_description": "run a board-game tournament",
+    "target_past_information": {
+      "subject": "Wataru Miyata",
+      "predicate": "event",
+      "object": "running a board-game tournament",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Mio Morita",
+      "predicate": "location",
+      "object": "Reception Building One",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Wataru Miyata",
+          "predicate": "event",
+          "object": "running a board-game tournament",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Morita",
+          "predicate": "location",
+          "object": "Reception Building One",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Wataru Miyata",
+          "predicate": "event",
+          "object": "running a board-game tournament",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Wataru Miyata",
+          "predicate": "event",
+          "object": "running a board-game tournament",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Miyata",
+          "predicate": "event",
+          "object": "running a board-game tournament",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Morita",
+          "predicate": "location",
+          "object": "Reception Building One",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Wataru Miyata did not run a board-game tournament even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Wataru Miyata",
+          "predicate": "event",
+          "object": "running a board-game tournament",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Wataru Miyata did not run a board-game tournament even once at any time from birth until immediately before 2027-09-02 at 13:00:00.",
+        "fact": {
+          "subject": "Wataru Miyata",
+          "predicate": "event",
+          "object": "running a board-game tournament",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Ritsu Sakamoto did not run a board-game tournament even once at any time from birth until immediately before 2027-09-02 at 13:00:00.",
+        "fact": {
+          "subject": "Ritsu Sakamoto",
+          "predicate": "event",
+          "object": "running a board-game tournament",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "running a board-game tournament": [
+        "running a board-game tournament"
+      ],
+      "Reception Building One": [
+        "Reception Building One"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2027-09-02 at 13:00:00"
+  },
+  {
+    "id": "confirm_022",
+    "aligned_japanese_id": "confirm_022",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Ritsu Iwata",
+    "reference": "2025-10-02T14:15:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2025-10-02T14:15:00"
+      ],
+      "before_reference": [
+        null,
+        "2025-10-02T14:15:00"
+      ],
+      "at_reference": [
+        "2025-10-02T14:15:00",
+        "2025-10-02T14:15:01"
+      ]
+    },
+    "utterance": "The reference time is 2025-10-02 at 14:15:00. The event recorded at the reference time was that Ritsu Iwata hosted a welcome reception for international students again. At the same time, Wataru Ogawa is in the West Administration Building.",
+    "target_description": "host a welcome reception for international students",
+    "target_past_information": {
+      "subject": "Ritsu Iwata",
+      "predicate": "event",
+      "object": "hosting a welcome reception for international students",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Wataru Ogawa",
+      "predicate": "location",
+      "object": "West Administration Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Ritsu Iwata",
+          "predicate": "event",
+          "object": "hosting a welcome reception for international students",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Ogawa",
+          "predicate": "location",
+          "object": "West Administration Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Ritsu Iwata",
+          "predicate": "event",
+          "object": "hosting a welcome reception for international students",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Ritsu Iwata",
+          "predicate": "event",
+          "object": "hosting a welcome reception for international students",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Iwata",
+          "predicate": "event",
+          "object": "hosting a welcome reception for international students",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Ogawa",
+          "predicate": "location",
+          "object": "West Administration Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Ritsu Iwata did not host a welcome reception for international students even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Ritsu Iwata",
+          "predicate": "event",
+          "object": "hosting a welcome reception for international students",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Ritsu Iwata did not host a welcome reception for international students even once at any time from birth until immediately before 2025-10-02 at 14:15:00.",
+        "fact": {
+          "subject": "Ritsu Iwata",
+          "predicate": "event",
+          "object": "hosting a welcome reception for international students",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Mio Kondo did not host a welcome reception for international students even once at any time from birth until immediately before 2025-10-02 at 14:15:00.",
+        "fact": {
+          "subject": "Mio Kondo",
+          "predicate": "event",
+          "object": "hosting a welcome reception for international students",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "hosting a welcome reception for international students": [
+        "hosting a welcome reception for international students"
+      ],
+      "West Administration Building": [
+        "West Administration Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2025-10-02 at 14:15:00"
+  },
+  {
+    "id": "confirm_023",
+    "aligned_japanese_id": "confirm_023",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Mio Kubo",
+    "reference": "2026-11-02T15:30:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2026-11-02T15:30:00"
+      ],
+      "before_reference": [
+        null,
+        "2026-11-02T15:30:00"
+      ],
+      "at_reference": [
+        "2026-11-02T15:30:00",
+        "2026-11-02T15:30:01"
+      ]
+    },
+    "utterance": "The reference time is 2026-11-02 at 15:30:00. According to the record, Mio Kubo performed at a rakugo storytelling event again at the reference time. At the same time, Ritsu Yamagishi is in the North Records Building.",
+    "target_description": "perform at a rakugo storytelling event",
+    "target_past_information": {
+      "subject": "Mio Kubo",
+      "predicate": "event",
+      "object": "performing at a rakugo storytelling event",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Ritsu Yamagishi",
+      "predicate": "location",
+      "object": "North Records Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Mio Kubo",
+          "predicate": "event",
+          "object": "performing at a rakugo storytelling event",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Yamagishi",
+          "predicate": "location",
+          "object": "North Records Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Mio Kubo",
+          "predicate": "event",
+          "object": "performing at a rakugo storytelling event",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Mio Kubo",
+          "predicate": "event",
+          "object": "performing at a rakugo storytelling event",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Kubo",
+          "predicate": "event",
+          "object": "performing at a rakugo storytelling event",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Yamagishi",
+          "predicate": "location",
+          "object": "North Records Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Mio Kubo did not perform at a rakugo storytelling event even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Mio Kubo",
+          "predicate": "event",
+          "object": "performing at a rakugo storytelling event",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Mio Kubo did not perform at a rakugo storytelling event even once at any time from birth until immediately before 2026-11-02 at 15:30:00.",
+        "fact": {
+          "subject": "Mio Kubo",
+          "predicate": "event",
+          "object": "performing at a rakugo storytelling event",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Wataru Takeda did not perform at a rakugo storytelling event even once at any time from birth until immediately before 2026-11-02 at 15:30:00.",
+        "fact": {
+          "subject": "Wataru Takeda",
+          "predicate": "event",
+          "object": "performing at a rakugo storytelling event",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "performing at a rakugo storytelling event": [
+        "performing at a rakugo storytelling event"
+      ],
+      "North Records Building": [
+        "North Records Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2026-11-02 at 15:30:00"
+  },
+  {
+    "id": "confirm_024",
+    "aligned_japanese_id": "confirm_024",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Wataru Katayama",
+    "reference": "2027-12-02T16:45:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2027-12-02T16:45:00"
+      ],
+      "before_reference": [
+        null,
+        "2027-12-02T16:45:00"
+      ],
+      "at_reference": [
+        "2027-12-02T16:45:00",
+        "2027-12-02T16:45:01"
+      ]
+    },
+    "utterance": "The reference time is 2027-12-02 at 16:45:00. Wataru Katayama read the poems at a Hyakunin Isshu tournament again at the reference time, as recorded. At the same time, Mio Ishikawa is in the Waiting Building Two.",
+    "target_description": "read the poems at a Hyakunin Isshu tournament",
+    "target_past_information": {
+      "subject": "Wataru Katayama",
+      "predicate": "event",
+      "object": "reading the poems at a Hyakunin Isshu tournament",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Mio Ishikawa",
+      "predicate": "location",
+      "object": "Waiting Building Two",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Wataru Katayama",
+          "predicate": "event",
+          "object": "reading the poems at a Hyakunin Isshu tournament",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Ishikawa",
+          "predicate": "location",
+          "object": "Waiting Building Two",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Wataru Katayama",
+          "predicate": "event",
+          "object": "reading the poems at a Hyakunin Isshu tournament",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Wataru Katayama",
+          "predicate": "event",
+          "object": "reading the poems at a Hyakunin Isshu tournament",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Katayama",
+          "predicate": "event",
+          "object": "reading the poems at a Hyakunin Isshu tournament",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Ishikawa",
+          "predicate": "location",
+          "object": "Waiting Building Two",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Wataru Katayama did not read the poems at a Hyakunin Isshu tournament even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Wataru Katayama",
+          "predicate": "event",
+          "object": "reading the poems at a Hyakunin Isshu tournament",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Wataru Katayama did not read the poems at a Hyakunin Isshu tournament even once at any time from birth until immediately before 2027-12-02 at 16:45:00.",
+        "fact": {
+          "subject": "Wataru Katayama",
+          "predicate": "event",
+          "object": "reading the poems at a Hyakunin Isshu tournament",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Ritsu Inoue did not read the poems at a Hyakunin Isshu tournament even once at any time from birth until immediately before 2027-12-02 at 16:45:00.",
+        "fact": {
+          "subject": "Ritsu Inoue",
+          "predicate": "event",
+          "object": "reading the poems at a Hyakunin Isshu tournament",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "reading the poems at a Hyakunin Isshu tournament": [
+        "reading the poems at a Hyakunin Isshu tournament"
+      ],
+      "Waiting Building Two": [
+        "Waiting Building Two"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2027-12-02 at 16:45:00"
+  },
+  {
+    "id": "confirm_025",
+    "aligned_japanese_id": "confirm_025",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Ritsu Tanabe",
+    "reference": "2025-01-03T09:00:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2025-01-03T09:00:00"
+      ],
+      "before_reference": [
+        null,
+        "2025-01-03T09:00:00"
+      ],
+      "at_reference": [
+        "2025-01-03T09:00:00",
+        "2025-01-03T09:00:01"
+      ]
+    },
+    "utterance": "The reference time is 2025-01-03 at 09:00:00. At the reference time, Ritsu Tanabe conducted a wild-bird population survey again. At the same time, Wataru Nishimura is in the East Reception Building.",
+    "target_description": "conduct a wild-bird population survey",
+    "target_past_information": {
+      "subject": "Ritsu Tanabe",
+      "predicate": "event",
+      "object": "conducting a wild-bird population survey",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Wataru Nishimura",
+      "predicate": "location",
+      "object": "East Reception Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Ritsu Tanabe",
+          "predicate": "event",
+          "object": "conducting a wild-bird population survey",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Nishimura",
+          "predicate": "location",
+          "object": "East Reception Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Ritsu Tanabe",
+          "predicate": "event",
+          "object": "conducting a wild-bird population survey",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Ritsu Tanabe",
+          "predicate": "event",
+          "object": "conducting a wild-bird population survey",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Tanabe",
+          "predicate": "event",
+          "object": "conducting a wild-bird population survey",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Nishimura",
+          "predicate": "location",
+          "object": "East Reception Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Ritsu Tanabe did not conduct a wild-bird population survey even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Ritsu Tanabe",
+          "predicate": "event",
+          "object": "conducting a wild-bird population survey",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Ritsu Tanabe did not conduct a wild-bird population survey even once at any time from birth until immediately before 2025-01-03 at 09:00:00.",
+        "fact": {
+          "subject": "Ritsu Tanabe",
+          "predicate": "event",
+          "object": "conducting a wild-bird population survey",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Mio Ishida did not conduct a wild-bird population survey even once at any time from birth until immediately before 2025-01-03 at 09:00:00.",
+        "fact": {
+          "subject": "Mio Ishida",
+          "predicate": "event",
+          "object": "conducting a wild-bird population survey",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "conducting a wild-bird population survey": [
+        "conducting a wild-bird population survey"
+      ],
+      "East Reception Building": [
+        "East Reception Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2025-01-03 at 09:00:00"
+  },
+  {
+    "id": "confirm_026",
+    "aligned_japanese_id": "confirm_026",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Mio Takagi",
+    "reference": "2026-02-03T10:15:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2026-02-03T10:15:00"
+      ],
+      "before_reference": [
+        null,
+        "2026-02-03T10:15:00"
+      ],
+      "at_reference": [
+        "2026-02-03T10:15:00",
+        "2026-02-03T10:15:01"
+      ]
+    },
+    "utterance": "The reference time is 2026-02-03 at 10:15:00. The record states that, at the reference time, Mio Takagi provided live commentary for an earthquake evacuation drill again. At the same time, Ritsu Hashimoto is in the South Liaison Building.",
+    "target_description": "provide live commentary for an earthquake evacuation drill",
+    "target_past_information": {
+      "subject": "Mio Takagi",
+      "predicate": "event",
+      "object": "providing live commentary for an earthquake evacuation drill",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Ritsu Hashimoto",
+      "predicate": "location",
+      "object": "South Liaison Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Mio Takagi",
+          "predicate": "event",
+          "object": "providing live commentary for an earthquake evacuation drill",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Hashimoto",
+          "predicate": "location",
+          "object": "South Liaison Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Mio Takagi",
+          "predicate": "event",
+          "object": "providing live commentary for an earthquake evacuation drill",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Mio Takagi",
+          "predicate": "event",
+          "object": "providing live commentary for an earthquake evacuation drill",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Takagi",
+          "predicate": "event",
+          "object": "providing live commentary for an earthquake evacuation drill",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Hashimoto",
+          "predicate": "location",
+          "object": "South Liaison Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Mio Takagi did not provide live commentary for an earthquake evacuation drill even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Mio Takagi",
+          "predicate": "event",
+          "object": "providing live commentary for an earthquake evacuation drill",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Mio Takagi did not provide live commentary for an earthquake evacuation drill even once at any time from birth until immediately before 2026-02-03 at 10:15:00.",
+        "fact": {
+          "subject": "Mio Takagi",
+          "predicate": "event",
+          "object": "providing live commentary for an earthquake evacuation drill",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Wataru Aoyama did not provide live commentary for an earthquake evacuation drill even once at any time from birth until immediately before 2026-02-03 at 10:15:00.",
+        "fact": {
+          "subject": "Wataru Aoyama",
+          "predicate": "event",
+          "object": "providing live commentary for an earthquake evacuation drill",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "providing live commentary for an earthquake evacuation drill": [
+        "providing live commentary for an earthquake evacuation drill"
+      ],
+      "South Liaison Building": [
+        "South Liaison Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2026-02-03 at 10:15:00"
+  },
+  {
+    "id": "confirm_027",
+    "aligned_japanese_id": "confirm_027",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Wataru Hirano",
+    "reference": "2027-03-03T11:30:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2027-03-03T11:30:00"
+      ],
+      "before_reference": [
+        null,
+        "2027-03-03T11:30:00"
+      ],
+      "at_reference": [
+        "2027-03-03T11:30:00",
+        "2027-03-03T11:30:01"
+      ]
+    },
+    "utterance": "The reference time is 2027-03-03 at 11:30:00. At the reference time, it was Wataru Hirano who commentated on games at a shogi tournament again. At the same time, Mio Matsuoka is in the Reception Building One.",
+    "target_description": "commentate on games at a shogi tournament",
+    "target_past_information": {
+      "subject": "Wataru Hirano",
+      "predicate": "event",
+      "object": "commentating on games at a shogi tournament",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Mio Matsuoka",
+      "predicate": "location",
+      "object": "Reception Building One",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Wataru Hirano",
+          "predicate": "event",
+          "object": "commentating on games at a shogi tournament",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Matsuoka",
+          "predicate": "location",
+          "object": "Reception Building One",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Wataru Hirano",
+          "predicate": "event",
+          "object": "commentating on games at a shogi tournament",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Wataru Hirano",
+          "predicate": "event",
+          "object": "commentating on games at a shogi tournament",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Hirano",
+          "predicate": "event",
+          "object": "commentating on games at a shogi tournament",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Matsuoka",
+          "predicate": "location",
+          "object": "Reception Building One",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Wataru Hirano did not commentate on games at a shogi tournament even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Wataru Hirano",
+          "predicate": "event",
+          "object": "commentating on games at a shogi tournament",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Wataru Hirano did not commentate on games at a shogi tournament even once at any time from birth until immediately before 2027-03-03 at 11:30:00.",
+        "fact": {
+          "subject": "Wataru Hirano",
+          "predicate": "event",
+          "object": "commentating on games at a shogi tournament",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Ritsu Fujiwara did not commentate on games at a shogi tournament even once at any time from birth until immediately before 2027-03-03 at 11:30:00.",
+        "fact": {
+          "subject": "Ritsu Fujiwara",
+          "predicate": "event",
+          "object": "commentating on games at a shogi tournament",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "commentating on games at a shogi tournament": [
+        "commentating on games at a shogi tournament"
+      ],
+      "Reception Building One": [
+        "Reception Building One"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2027-03-03 at 11:30:00"
+  },
+  {
+    "id": "confirm_028",
+    "aligned_japanese_id": "confirm_028",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Ritsu Okumura",
+    "reference": "2025-04-03T12:45:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2025-04-03T12:45:00"
+      ],
+      "before_reference": [
+        null,
+        "2025-04-03T12:45:00"
+      ],
+      "at_reference": [
+        "2025-04-03T12:45:00",
+        "2025-04-03T12:45:01"
+      ]
+    },
+    "utterance": "The reference time is 2025-04-03 at 12:45:00. The event recorded at the reference time was that Ritsu Okumura guest-conducted a wind ensemble again. At the same time, Wataru Yoshikawa is in the West Administration Building.",
+    "target_description": "guest-conduct a wind ensemble",
+    "target_past_information": {
+      "subject": "Ritsu Okumura",
+      "predicate": "event",
+      "object": "guest-conducting a wind ensemble",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Wataru Yoshikawa",
+      "predicate": "location",
+      "object": "West Administration Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Ritsu Okumura",
+          "predicate": "event",
+          "object": "guest-conducting a wind ensemble",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Yoshikawa",
+          "predicate": "location",
+          "object": "West Administration Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Ritsu Okumura",
+          "predicate": "event",
+          "object": "guest-conducting a wind ensemble",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Ritsu Okumura",
+          "predicate": "event",
+          "object": "guest-conducting a wind ensemble",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Okumura",
+          "predicate": "event",
+          "object": "guest-conducting a wind ensemble",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Yoshikawa",
+          "predicate": "location",
+          "object": "West Administration Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Ritsu Okumura did not guest-conduct a wind ensemble even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Ritsu Okumura",
+          "predicate": "event",
+          "object": "guest-conducting a wind ensemble",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Ritsu Okumura did not guest-conduct a wind ensemble even once at any time from birth until immediately before 2025-04-03 at 12:45:00.",
+        "fact": {
+          "subject": "Ritsu Okumura",
+          "predicate": "event",
+          "object": "guest-conducting a wind ensemble",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Mio Murakami did not guest-conduct a wind ensemble even once at any time from birth until immediately before 2025-04-03 at 12:45:00.",
+        "fact": {
+          "subject": "Mio Murakami",
+          "predicate": "event",
+          "object": "guest-conducting a wind ensemble",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "guest-conducting a wind ensemble": [
+        "guest-conducting a wind ensemble"
+      ],
+      "West Administration Building": [
+        "West Administration Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2025-04-03 at 12:45:00"
+  },
+  {
+    "id": "confirm_029",
+    "aligned_japanese_id": "confirm_029",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Mio Fukuda",
+    "reference": "2026-05-03T13:00:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2026-05-03T13:00:00"
+      ],
+      "before_reference": [
+        null,
+        "2026-05-03T13:00:00"
+      ],
+      "at_reference": [
+        "2026-05-03T13:00:00",
+        "2026-05-03T13:00:01"
+      ]
+    },
+    "utterance": "The reference time is 2026-05-03 at 13:00:00. According to the record, Mio Fukuda demonstrated CPR at a first-aid workshop again at the reference time. At the same time, Ritsu Ono is in the North Records Building.",
+    "target_description": "demonstrate CPR at a first-aid workshop",
+    "target_past_information": {
+      "subject": "Mio Fukuda",
+      "predicate": "event",
+      "object": "demonstrating CPR at a first-aid workshop",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Ritsu Ono",
+      "predicate": "location",
+      "object": "North Records Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Mio Fukuda",
+          "predicate": "event",
+          "object": "demonstrating CPR at a first-aid workshop",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Ono",
+          "predicate": "location",
+          "object": "North Records Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Mio Fukuda",
+          "predicate": "event",
+          "object": "demonstrating CPR at a first-aid workshop",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Mio Fukuda",
+          "predicate": "event",
+          "object": "demonstrating CPR at a first-aid workshop",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Fukuda",
+          "predicate": "event",
+          "object": "demonstrating CPR at a first-aid workshop",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Ono",
+          "predicate": "location",
+          "object": "North Records Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Mio Fukuda did not demonstrate CPR at a first-aid workshop even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Mio Fukuda",
+          "predicate": "event",
+          "object": "demonstrating CPR at a first-aid workshop",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Mio Fukuda did not demonstrate CPR at a first-aid workshop even once at any time from birth until immediately before 2026-05-03 at 13:00:00.",
+        "fact": {
+          "subject": "Mio Fukuda",
+          "predicate": "event",
+          "object": "demonstrating CPR at a first-aid workshop",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Wataru Nakanishi did not demonstrate CPR at a first-aid workshop even once at any time from birth until immediately before 2026-05-03 at 13:00:00.",
+        "fact": {
+          "subject": "Wataru Nakanishi",
+          "predicate": "event",
+          "object": "demonstrating CPR at a first-aid workshop",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "demonstrating CPR at a first-aid workshop": [
+        "demonstrating CPR at a first-aid workshop"
+      ],
+      "North Records Building": [
+        "North Records Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2026-05-03 at 13:00:00"
+  },
+  {
+    "id": "confirm_030",
+    "aligned_japanese_id": "confirm_030",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Wataru Ueda",
+    "reference": "2027-06-03T14:15:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2027-06-03T14:15:00"
+      ],
+      "before_reference": [
+        null,
+        "2027-06-03T14:15:00"
+      ],
+      "at_reference": [
+        "2027-06-03T14:15:00",
+        "2027-06-03T14:15:01"
+      ]
+    },
+    "utterance": "The reference time is 2027-06-03 at 14:15:00. Wataru Ueda gave critical commentary at a haiku meeting again at the reference time, as recorded. At the same time, Mio Kono is in the Waiting Building Two.",
+    "target_description": "give critical commentary at a haiku meeting",
+    "target_past_information": {
+      "subject": "Wataru Ueda",
+      "predicate": "event",
+      "object": "giving critical commentary at a haiku meeting",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Mio Kono",
+      "predicate": "location",
+      "object": "Waiting Building Two",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Wataru Ueda",
+          "predicate": "event",
+          "object": "giving critical commentary at a haiku meeting",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Kono",
+          "predicate": "location",
+          "object": "Waiting Building Two",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Wataru Ueda",
+          "predicate": "event",
+          "object": "giving critical commentary at a haiku meeting",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Wataru Ueda",
+          "predicate": "event",
+          "object": "giving critical commentary at a haiku meeting",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Ueda",
+          "predicate": "event",
+          "object": "giving critical commentary at a haiku meeting",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Kono",
+          "predicate": "location",
+          "object": "Waiting Building Two",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Wataru Ueda did not give critical commentary at a haiku meeting even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Wataru Ueda",
+          "predicate": "event",
+          "object": "giving critical commentary at a haiku meeting",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Wataru Ueda did not give critical commentary at a haiku meeting even once at any time from birth until immediately before 2027-06-03 at 14:15:00.",
+        "fact": {
+          "subject": "Wataru Ueda",
+          "predicate": "event",
+          "object": "giving critical commentary at a haiku meeting",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Ritsu Kawamura did not give critical commentary at a haiku meeting even once at any time from birth until immediately before 2027-06-03 at 14:15:00.",
+        "fact": {
+          "subject": "Ritsu Kawamura",
+          "predicate": "event",
+          "object": "giving critical commentary at a haiku meeting",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "giving critical commentary at a haiku meeting": [
+        "giving critical commentary at a haiku meeting"
+      ],
+      "Waiting Building Two": [
+        "Waiting Building Two"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2027-06-03 at 14:15:00"
+  },
+  {
+    "id": "confirm_031",
+    "aligned_japanese_id": "confirm_031",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Ritsu Yokoyama",
+    "reference": "2025-07-03T15:30:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2025-07-03T15:30:00"
+      ],
+      "before_reference": [
+        null,
+        "2025-07-03T15:30:00"
+      ],
+      "at_reference": [
+        "2025-07-03T15:30:00",
+        "2025-07-03T15:30:01"
+      ]
+    },
+    "utterance": "The reference time is 2025-07-03 at 15:30:00. At the reference time, Ritsu Yokoyama demonstrated the tea-preparation procedure at a tea gathering again. At the same time, Wataru Yasuda is in the East Reception Building.",
+    "target_description": "demonstrate the tea-preparation procedure at a tea gathering",
+    "target_past_information": {
+      "subject": "Ritsu Yokoyama",
+      "predicate": "event",
+      "object": "demonstrating the tea-preparation procedure at a tea gathering",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Wataru Yasuda",
+      "predicate": "location",
+      "object": "East Reception Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Ritsu Yokoyama",
+          "predicate": "event",
+          "object": "demonstrating the tea-preparation procedure at a tea gathering",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Yasuda",
+          "predicate": "location",
+          "object": "East Reception Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Ritsu Yokoyama",
+          "predicate": "event",
+          "object": "demonstrating the tea-preparation procedure at a tea gathering",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Ritsu Yokoyama",
+          "predicate": "event",
+          "object": "demonstrating the tea-preparation procedure at a tea gathering",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Yokoyama",
+          "predicate": "event",
+          "object": "demonstrating the tea-preparation procedure at a tea gathering",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Yasuda",
+          "predicate": "location",
+          "object": "East Reception Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Ritsu Yokoyama did not demonstrate the tea-preparation procedure at a tea gathering even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Ritsu Yokoyama",
+          "predicate": "event",
+          "object": "demonstrating the tea-preparation procedure at a tea gathering",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Ritsu Yokoyama did not demonstrate the tea-preparation procedure at a tea gathering even once at any time from birth until immediately before 2025-07-03 at 15:30:00.",
+        "fact": {
+          "subject": "Ritsu Yokoyama",
+          "predicate": "event",
+          "object": "demonstrating the tea-preparation procedure at a tea gathering",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Mio Okada did not demonstrate the tea-preparation procedure at a tea gathering even once at any time from birth until immediately before 2025-07-03 at 15:30:00.",
+        "fact": {
+          "subject": "Mio Okada",
+          "predicate": "event",
+          "object": "demonstrating the tea-preparation procedure at a tea gathering",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "demonstrating the tea-preparation procedure at a tea gathering": [
+        "demonstrating the tea-preparation procedure at a tea gathering"
+      ],
+      "East Reception Building": [
+        "East Reception Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2025-07-03 at 15:30:00"
+  },
+  {
+    "id": "confirm_032",
+    "aligned_japanese_id": "confirm_032",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Mio Fujita",
+    "reference": "2026-08-03T16:45:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2026-08-03T16:45:00"
+      ],
+      "before_reference": [
+        null,
+        "2026-08-03T16:45:00"
+      ],
+      "at_reference": [
+        "2026-08-03T16:45:00",
+        "2026-08-03T16:45:01"
+      ]
+    },
+    "utterance": "The reference time is 2026-08-03 at 16:45:00. The record states that, at the reference time, Mio Fujita timed a swimming competition again. At the same time, Ritsu Miyata is in the South Liaison Building.",
+    "target_description": "time a swimming competition",
+    "target_past_information": {
+      "subject": "Mio Fujita",
+      "predicate": "event",
+      "object": "timing a swimming competition",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Ritsu Miyata",
+      "predicate": "location",
+      "object": "South Liaison Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Mio Fujita",
+          "predicate": "event",
+          "object": "timing a swimming competition",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Miyata",
+          "predicate": "location",
+          "object": "South Liaison Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Mio Fujita",
+          "predicate": "event",
+          "object": "timing a swimming competition",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Mio Fujita",
+          "predicate": "event",
+          "object": "timing a swimming competition",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Fujita",
+          "predicate": "event",
+          "object": "timing a swimming competition",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Miyata",
+          "predicate": "location",
+          "object": "South Liaison Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Mio Fujita did not time a swimming competition even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Mio Fujita",
+          "predicate": "event",
+          "object": "timing a swimming competition",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Mio Fujita did not time a swimming competition even once at any time from birth until immediately before 2026-08-03 at 16:45:00.",
+        "fact": {
+          "subject": "Mio Fujita",
+          "predicate": "event",
+          "object": "timing a swimming competition",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Wataru Hasegawa did not time a swimming competition even once at any time from birth until immediately before 2026-08-03 at 16:45:00.",
+        "fact": {
+          "subject": "Wataru Hasegawa",
+          "predicate": "event",
+          "object": "timing a swimming competition",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "timing a swimming competition": [
+        "timing a swimming competition"
+      ],
+      "South Liaison Building": [
+        "South Liaison Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2026-08-03 at 16:45:00"
+  },
+  {
+    "id": "confirm_033",
+    "aligned_japanese_id": "confirm_033",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Wataru Harada",
+    "reference": "2027-09-03T09:00:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2027-09-03T09:00:00"
+      ],
+      "before_reference": [
+        null,
+        "2027-09-03T09:00:00"
+      ],
+      "at_reference": [
+        "2027-09-03T09:00:00",
+        "2027-09-03T09:00:01"
+      ]
+    },
+    "utterance": "The reference time is 2027-09-03 at 09:00:00. At the reference time, it was Wataru Harada who conducted a grassland insect survey again. At the same time, Mio Iwata is in the Reception Building One.",
+    "target_description": "conduct a grassland insect survey",
+    "target_past_information": {
+      "subject": "Wataru Harada",
+      "predicate": "event",
+      "object": "conducting a grassland insect survey",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Mio Iwata",
+      "predicate": "location",
+      "object": "Reception Building One",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Wataru Harada",
+          "predicate": "event",
+          "object": "conducting a grassland insect survey",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Iwata",
+          "predicate": "location",
+          "object": "Reception Building One",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Wataru Harada",
+          "predicate": "event",
+          "object": "conducting a grassland insect survey",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Wataru Harada",
+          "predicate": "event",
+          "object": "conducting a grassland insect survey",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Harada",
+          "predicate": "event",
+          "object": "conducting a grassland insect survey",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Iwata",
+          "predicate": "location",
+          "object": "Reception Building One",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Wataru Harada did not conduct a grassland insect survey even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Wataru Harada",
+          "predicate": "event",
+          "object": "conducting a grassland insect survey",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Wataru Harada did not conduct a grassland insect survey even once at any time from birth until immediately before 2027-09-03 at 09:00:00.",
+        "fact": {
+          "subject": "Wataru Harada",
+          "predicate": "event",
+          "object": "conducting a grassland insect survey",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Ritsu Morita did not conduct a grassland insect survey even once at any time from birth until immediately before 2027-09-03 at 09:00:00.",
+        "fact": {
+          "subject": "Ritsu Morita",
+          "predicate": "event",
+          "object": "conducting a grassland insect survey",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "conducting a grassland insect survey": [
+        "conducting a grassland insect survey"
+      ],
+      "Reception Building One": [
+        "Reception Building One"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2027-09-03 at 09:00:00"
+  },
+  {
+    "id": "confirm_034",
+    "aligned_japanese_id": "confirm_034",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Ritsu Nakano",
+    "reference": "2025-10-03T10:15:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2025-10-03T10:15:00"
+      ],
+      "before_reference": [
+        null,
+        "2025-10-03T10:15:00"
+      ],
+      "at_reference": [
+        "2025-10-03T10:15:00",
+        "2025-10-03T10:15:01"
+      ]
+    },
+    "utterance": "The reference time is 2025-10-03 at 10:15:00. The event recorded at the reference time was that Ritsu Nakano recorded a museum audio guide again. At the same time, Wataru Kubo is in the West Administration Building.",
+    "target_description": "record a museum audio guide",
+    "target_past_information": {
+      "subject": "Ritsu Nakano",
+      "predicate": "event",
+      "object": "recording a museum audio guide",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Wataru Kubo",
+      "predicate": "location",
+      "object": "West Administration Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Ritsu Nakano",
+          "predicate": "event",
+          "object": "recording a museum audio guide",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Kubo",
+          "predicate": "location",
+          "object": "West Administration Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Ritsu Nakano",
+          "predicate": "event",
+          "object": "recording a museum audio guide",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Ritsu Nakano",
+          "predicate": "event",
+          "object": "recording a museum audio guide",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Nakano",
+          "predicate": "event",
+          "object": "recording a museum audio guide",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Kubo",
+          "predicate": "location",
+          "object": "West Administration Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Ritsu Nakano did not record a museum audio guide even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Ritsu Nakano",
+          "predicate": "event",
+          "object": "recording a museum audio guide",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Ritsu Nakano did not record a museum audio guide even once at any time from birth until immediately before 2025-10-03 at 10:15:00.",
+        "fact": {
+          "subject": "Ritsu Nakano",
+          "predicate": "event",
+          "object": "recording a museum audio guide",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Mio Ogawa did not record a museum audio guide even once at any time from birth until immediately before 2025-10-03 at 10:15:00.",
+        "fact": {
+          "subject": "Mio Ogawa",
+          "predicate": "event",
+          "object": "recording a museum audio guide",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "recording a museum audio guide": [
+        "recording a museum audio guide"
+      ],
+      "West Administration Building": [
+        "West Administration Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2025-10-03 at 10:15:00"
+  },
+  {
+    "id": "confirm_035",
+    "aligned_japanese_id": "confirm_035",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Mio Furukawa",
+    "reference": "2026-11-03T11:30:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2026-11-03T11:30:00"
+      ],
+      "before_reference": [
+        null,
+        "2026-11-03T11:30:00"
+      ],
+      "at_reference": [
+        "2026-11-03T11:30:00",
+        "2026-11-03T11:30:01"
+      ]
+    },
+    "utterance": "The reference time is 2026-11-03 at 11:30:00. According to the record, Mio Furukawa sang a folk song solo again at the reference time. At the same time, Ritsu Katayama is in the North Records Building.",
+    "target_description": "sing a folk song solo",
+    "target_past_information": {
+      "subject": "Mio Furukawa",
+      "predicate": "event",
+      "object": "singing a folk song solo",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Ritsu Katayama",
+      "predicate": "location",
+      "object": "North Records Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Mio Furukawa",
+          "predicate": "event",
+          "object": "singing a folk song solo",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Katayama",
+          "predicate": "location",
+          "object": "North Records Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Mio Furukawa",
+          "predicate": "event",
+          "object": "singing a folk song solo",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Mio Furukawa",
+          "predicate": "event",
+          "object": "singing a folk song solo",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Furukawa",
+          "predicate": "event",
+          "object": "singing a folk song solo",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Katayama",
+          "predicate": "location",
+          "object": "North Records Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Mio Furukawa did not sing a folk song solo even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Mio Furukawa",
+          "predicate": "event",
+          "object": "singing a folk song solo",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Mio Furukawa did not sing a folk song solo even once at any time from birth until immediately before 2026-11-03 at 11:30:00.",
+        "fact": {
+          "subject": "Mio Furukawa",
+          "predicate": "event",
+          "object": "singing a folk song solo",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Wataru Yamagishi did not sing a folk song solo even once at any time from birth until immediately before 2026-11-03 at 11:30:00.",
+        "fact": {
+          "subject": "Wataru Yamagishi",
+          "predicate": "event",
+          "object": "singing a folk song solo",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "singing a folk song solo": [
+        "singing a folk song solo"
+      ],
+      "North Records Building": [
+        "North Records Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2026-11-03 at 11:30:00"
+  },
+  {
+    "id": "confirm_036",
+    "aligned_japanese_id": "confirm_036",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Wataru Imai",
+    "reference": "2027-12-03T12:45:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2027-12-03T12:45:00"
+      ],
+      "before_reference": [
+        null,
+        "2027-12-03T12:45:00"
+      ],
+      "at_reference": [
+        "2027-12-03T12:45:00",
+        "2027-12-03T12:45:01"
+      ]
+    },
+    "utterance": "The reference time is 2027-12-03 at 12:45:00. Wataru Imai played taiko drums at a community festival again at the reference time, as recorded. At the same time, Mio Tanabe is in the Waiting Building Two.",
+    "target_description": "play taiko drums at a community festival",
+    "target_past_information": {
+      "subject": "Wataru Imai",
+      "predicate": "event",
+      "object": "playing taiko drums at a community festival",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Mio Tanabe",
+      "predicate": "location",
+      "object": "Waiting Building Two",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Wataru Imai",
+          "predicate": "event",
+          "object": "playing taiko drums at a community festival",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Tanabe",
+          "predicate": "location",
+          "object": "Waiting Building Two",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Wataru Imai",
+          "predicate": "event",
+          "object": "playing taiko drums at a community festival",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Wataru Imai",
+          "predicate": "event",
+          "object": "playing taiko drums at a community festival",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Imai",
+          "predicate": "event",
+          "object": "playing taiko drums at a community festival",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Tanabe",
+          "predicate": "location",
+          "object": "Waiting Building Two",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Wataru Imai did not play taiko drums at a community festival even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Wataru Imai",
+          "predicate": "event",
+          "object": "playing taiko drums at a community festival",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Wataru Imai did not play taiko drums at a community festival even once at any time from birth until immediately before 2027-12-03 at 12:45:00.",
+        "fact": {
+          "subject": "Wataru Imai",
+          "predicate": "event",
+          "object": "playing taiko drums at a community festival",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Ritsu Ishikawa did not play taiko drums at a community festival even once at any time from birth until immediately before 2027-12-03 at 12:45:00.",
+        "fact": {
+          "subject": "Ritsu Ishikawa",
+          "predicate": "event",
+          "object": "playing taiko drums at a community festival",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "playing taiko drums at a community festival": [
+        "playing taiko drums at a community festival"
+      ],
+      "Waiting Building Two": [
+        "Waiting Building Two"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2027-12-03 at 12:45:00"
+  },
+  {
+    "id": "confirm_037",
+    "aligned_japanese_id": "confirm_037",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Ritsu Kaneko",
+    "reference": "2025-01-04T13:00:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2025-01-04T13:00:00"
+      ],
+      "before_reference": [
+        null,
+        "2025-01-04T13:00:00"
+      ],
+      "at_reference": [
+        "2025-01-04T13:00:00",
+        "2025-01-04T13:00:01"
+      ]
+    },
+    "utterance": "The reference time is 2025-01-04 at 13:00:00. At the reference time, Ritsu Kaneko scored a debating competition again. At the same time, Wataru Takagi is in the East Reception Building.",
+    "target_description": "score a debating competition",
+    "target_past_information": {
+      "subject": "Ritsu Kaneko",
+      "predicate": "event",
+      "object": "scoring a debating competition",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Wataru Takagi",
+      "predicate": "location",
+      "object": "East Reception Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Ritsu Kaneko",
+          "predicate": "event",
+          "object": "scoring a debating competition",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Takagi",
+          "predicate": "location",
+          "object": "East Reception Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Ritsu Kaneko",
+          "predicate": "event",
+          "object": "scoring a debating competition",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Ritsu Kaneko",
+          "predicate": "event",
+          "object": "scoring a debating competition",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Kaneko",
+          "predicate": "event",
+          "object": "scoring a debating competition",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Takagi",
+          "predicate": "location",
+          "object": "East Reception Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Ritsu Kaneko did not score a debating competition even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Ritsu Kaneko",
+          "predicate": "event",
+          "object": "scoring a debating competition",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Ritsu Kaneko did not score a debating competition even once at any time from birth until immediately before 2025-01-04 at 13:00:00.",
+        "fact": {
+          "subject": "Ritsu Kaneko",
+          "predicate": "event",
+          "object": "scoring a debating competition",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Mio Nishimura did not score a debating competition even once at any time from birth until immediately before 2025-01-04 at 13:00:00.",
+        "fact": {
+          "subject": "Mio Nishimura",
+          "predicate": "event",
+          "object": "scoring a debating competition",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "scoring a debating competition": [
+        "scoring a debating competition"
+      ],
+      "East Reception Building": [
+        "East Reception Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2025-01-04 at 13:00:00"
+  },
+  {
+    "id": "confirm_038",
+    "aligned_japanese_id": "confirm_038",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Mio Sakamoto",
+    "reference": "2026-02-04T14:15:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2026-02-04T14:15:00"
+      ],
+      "before_reference": [
+        null,
+        "2026-02-04T14:15:00"
+      ],
+      "at_reference": [
+        "2026-02-04T14:15:00",
+        "2026-02-04T14:15:01"
+      ]
+    },
+    "utterance": "The reference time is 2026-02-04 at 14:15:00. The record states that, at the reference time, Mio Sakamoto provided play-by-play commentary for a sports broadcast again. At the same time, Ritsu Hirano is in the South Liaison Building.",
+    "target_description": "provide play-by-play commentary for a sports broadcast",
+    "target_past_information": {
+      "subject": "Mio Sakamoto",
+      "predicate": "event",
+      "object": "providing play-by-play commentary for a sports broadcast",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Ritsu Hirano",
+      "predicate": "location",
+      "object": "South Liaison Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Mio Sakamoto",
+          "predicate": "event",
+          "object": "providing play-by-play commentary for a sports broadcast",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Hirano",
+          "predicate": "location",
+          "object": "South Liaison Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Mio Sakamoto",
+          "predicate": "event",
+          "object": "providing play-by-play commentary for a sports broadcast",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Mio Sakamoto",
+          "predicate": "event",
+          "object": "providing play-by-play commentary for a sports broadcast",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Sakamoto",
+          "predicate": "event",
+          "object": "providing play-by-play commentary for a sports broadcast",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Hirano",
+          "predicate": "location",
+          "object": "South Liaison Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Mio Sakamoto did not provide play-by-play commentary for a sports broadcast even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Mio Sakamoto",
+          "predicate": "event",
+          "object": "providing play-by-play commentary for a sports broadcast",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Mio Sakamoto did not provide play-by-play commentary for a sports broadcast even once at any time from birth until immediately before 2026-02-04 at 14:15:00.",
+        "fact": {
+          "subject": "Mio Sakamoto",
+          "predicate": "event",
+          "object": "providing play-by-play commentary for a sports broadcast",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Wataru Hashimoto did not provide play-by-play commentary for a sports broadcast even once at any time from birth until immediately before 2026-02-04 at 14:15:00.",
+        "fact": {
+          "subject": "Wataru Hashimoto",
+          "predicate": "event",
+          "object": "providing play-by-play commentary for a sports broadcast",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "providing play-by-play commentary for a sports broadcast": [
+        "providing play-by-play commentary for a sports broadcast"
+      ],
+      "South Liaison Building": [
+        "South Liaison Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2026-02-04 at 14:15:00"
+  },
+  {
+    "id": "confirm_039",
+    "aligned_japanese_id": "confirm_039",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Wataru Kondo",
+    "reference": "2027-03-04T15:30:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2027-03-04T15:30:00"
+      ],
+      "before_reference": [
+        null,
+        "2027-03-04T15:30:00"
+      ],
+      "at_reference": [
+        "2027-03-04T15:30:00",
+        "2027-03-04T15:30:01"
+      ]
+    },
+    "utterance": "The reference time is 2027-03-04 at 15:30:00. At the reference time, it was Wataru Kondo who led a forest observation outing again. At the same time, Mio Okumura is in the Reception Building One.",
+    "target_description": "lead a forest observation outing",
+    "target_past_information": {
+      "subject": "Wataru Kondo",
+      "predicate": "event",
+      "object": "leading a forest observation outing",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Mio Okumura",
+      "predicate": "location",
+      "object": "Reception Building One",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Wataru Kondo",
+          "predicate": "event",
+          "object": "leading a forest observation outing",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Okumura",
+          "predicate": "location",
+          "object": "Reception Building One",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Wataru Kondo",
+          "predicate": "event",
+          "object": "leading a forest observation outing",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Wataru Kondo",
+          "predicate": "event",
+          "object": "leading a forest observation outing",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Kondo",
+          "predicate": "event",
+          "object": "leading a forest observation outing",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Mio Okumura",
+          "predicate": "location",
+          "object": "Reception Building One",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Wataru Kondo did not lead a forest observation outing even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Wataru Kondo",
+          "predicate": "event",
+          "object": "leading a forest observation outing",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Wataru Kondo did not lead a forest observation outing even once at any time from birth until immediately before 2027-03-04 at 15:30:00.",
+        "fact": {
+          "subject": "Wataru Kondo",
+          "predicate": "event",
+          "object": "leading a forest observation outing",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Ritsu Matsuoka did not lead a forest observation outing even once at any time from birth until immediately before 2027-03-04 at 15:30:00.",
+        "fact": {
+          "subject": "Ritsu Matsuoka",
+          "predicate": "event",
+          "object": "leading a forest observation outing",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "leading a forest observation outing": [
+        "leading a forest observation outing"
+      ],
+      "Reception Building One": [
+        "Reception Building One"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2027-03-04 at 15:30:00"
+  },
+  {
+    "id": "confirm_040",
+    "aligned_japanese_id": "confirm_040",
+    "version": 2,
+    "language": "en",
+    "phenomenon": "again",
+    "subject": "Ritsu Takeda",
+    "reference": "2025-04-04T16:45:00",
+    "periods": {
+      "before_2024": [
+        null,
+        "2024-01-01T00:00:00"
+      ],
+      "year_2024": [
+        "2024-01-01T00:00:00",
+        "2025-01-01T00:00:00"
+      ],
+      "after_2024_before_reference": [
+        "2025-01-01T00:00:00",
+        "2025-04-04T16:45:00"
+      ],
+      "before_reference": [
+        null,
+        "2025-04-04T16:45:00"
+      ],
+      "at_reference": [
+        "2025-04-04T16:45:00",
+        "2025-04-04T16:45:01"
+      ]
+    },
+    "utterance": "The reference time is 2025-04-04 at 16:45:00. The event recorded at the reference time was that Ritsu Takeda guided a birdwatching outing again. At the same time, Wataru Fukuda is in the West Administration Building.",
+    "target_description": "guide a birdwatching outing",
+    "target_past_information": {
+      "subject": "Ritsu Takeda",
+      "predicate": "event",
+      "object": "guiding a birdwatching outing",
+      "period": "before_reference",
+      "polarity": true
+    },
+    "target_role": "presuppositions",
+    "anchor": {
+      "subject": "Wataru Fukuda",
+      "predicate": "location",
+      "object": "West Administration Building",
+      "period": "at_reference",
+      "polarity": true
+    },
+    "gold_state": {
+      "assertions": [
+        {
+          "subject": "Ritsu Takeda",
+          "predicate": "event",
+          "object": "guiding a birdwatching outing",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Fukuda",
+          "predicate": "location",
+          "object": "West Administration Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "presuppositions": [
+        {
+          "subject": "Ritsu Takeda",
+          "predicate": "event",
+          "object": "guiding a birdwatching outing",
+          "period": "before_reference",
+          "polarity": true
+        }
+      ],
+      "current_facts": [
+        {
+          "subject": "Ritsu Takeda",
+          "predicate": "event",
+          "object": "guiding a birdwatching outing",
+          "period": "at_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Ritsu Takeda",
+          "predicate": "event",
+          "object": "guiding a birdwatching outing",
+          "period": "before_reference",
+          "polarity": true
+        },
+        {
+          "subject": "Wataru Fukuda",
+          "predicate": "location",
+          "object": "West Administration Building",
+          "period": "at_reference",
+          "polarity": true
+        }
+      ],
+      "revision_log": [],
+      "presupposition_conflicts": []
+    },
+    "updates": [
+      {
+        "id": "Narrow",
+        "text": "Ritsu Takeda did not guide a birdwatching outing even once during the calendar year 2024.",
+        "fact": {
+          "subject": "Ritsu Takeda",
+          "predicate": "event",
+          "object": "guiding a birdwatching outing",
+          "period": "year_2024",
+          "polarity": false
+        },
+        "gold_conflict": false
+      },
+      {
+        "id": "Whole",
+        "text": "Ritsu Takeda did not guide a birdwatching outing even once at any time from birth until immediately before 2025-04-04 at 16:45:00.",
+        "fact": {
+          "subject": "Ritsu Takeda",
+          "predicate": "event",
+          "object": "guiding a birdwatching outing",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": true
+      },
+      {
+        "id": "Unrelated",
+        "text": "Mio Yoshikawa did not guide a birdwatching outing even once at any time from birth until immediately before 2025-04-04 at 16:45:00.",
+        "fact": {
+          "subject": "Mio Yoshikawa",
+          "predicate": "event",
+          "object": "guiding a birdwatching outing",
+          "period": "before_reference",
+          "polarity": false
+        },
+        "gold_conflict": false,
+        "control_type": "person"
+      }
+    ],
+    "object_aliases": {
+      "guiding a birdwatching outing": [
+        "guiding a birdwatching outing"
+      ],
+      "West Administration Building": [
+        "West Administration Building"
+      ]
+    },
+    "review_status": "candidate_not_human_validated",
+    "narrow_span": "during the calendar year 2024",
+    "whole_span": "at any time from birth until immediately before 2025-04-04 at 16:45:00"
+  }
+]
